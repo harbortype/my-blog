@@ -1,6 +1,21 @@
+@font-face {
+	font-family: Seiva;
+	src: url('/fonts/SeivaVariable-Roman.woff2') format('woff2-variations');
+	font-weight: 90 1000;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Seiva;
+	src: url('/fonts/SeivaVariable-Italic.woff2') format('woff2-variations');
+	font-weight: 90 1000;
+	font-style: italic;
+	font-display: swap;
+}
+
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: Seiva, -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
@@ -43,11 +58,13 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	font-family: var(--font-family);
+	font-optical-sizing: auto;
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
 html {
 	overflow-y: scroll;
+	font-size: 1.125em; /* 18px */
 }
 body {
 	max-width: 40em;
@@ -67,12 +84,9 @@ body {
 p:last-child {
 	margin-bottom: 0;
 }
-p {
-	line-height: 1.5;
-}
-
-li {
-	line-height: 1.5;
+p, li {
+	font-weight: 350;
+	line-height: 1.666;
 }
 
 a[href] {
@@ -84,6 +98,13 @@ a[href]:visited {
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 350;
+}
+h1 {
+	font-size: 2.5rem;
 }
 
 main {
