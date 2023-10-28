@@ -12,10 +12,10 @@
 
 	--background-color: #fff;
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color: #000;
+	--text-color-link: oklch(63% 0.2 255);
+	--text-color-link-active: oklch(63% 0.2 23);
+	--text-color-link-visited: oklch(45% 0.2 310);
 
 	--syntax-tab-size: 2;
 }
@@ -26,10 +26,7 @@
 		--color-gray-50: #C0C0C0;
 		--color-gray-90: #dad8d8;
 
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--text-color: #f0f0f0;
 
 		--background-color: #15202b;
 	}
