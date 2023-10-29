@@ -1,0 +1,181 @@
+@font-face {
+  font-family: Seiva;
+  src: url('./fonts/SeivaVariable-Roman.woff2') format('woff2-variations');
+  font-weight: 90 1000;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Seiva;
+  src: url('./fonts/SeivaVariable-Italic.woff2') format('woff2-variations');
+  font-weight: 90 1000;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Defaults */
+:root {
+  --font-family: Seiva, -apple-system, system-ui, sans-serif;
+  --font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+  --color-gray-20: #e0e0e0;
+  --color-gray-50: #C0C0C0;
+  --color-gray-90: #333;
+  --background-color: #fff;
+  --text-color: #000;
+  --text-color-link: oklch(63% 0.2 255);
+  --text-color-link-active: oklch(63% 0.2 23);
+  --text-color-link-visited: oklch(50% 0.2 310);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray-20: #e0e0e0;
+    --color-gray-50: #C0C0C0;
+    --color-gray-90: #dad8d8;
+    --text-color: #f0f0f0;
+    --background-color: #15202b;
+  }
+}
+
+/* Sizes */
+:root {
+  --body-margin: 1rem;
+  --content-width: calc(100vw - var(--body-margin) * 2);
+  --text-width: min(768px, var(--content-width));
+  --syntax-tab-size: 2;
+}
+
+
+/* GLOBAL STYLESHEET */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+html {
+  overflow-y: scroll;
+  font-size: 1.125em; /* 18px */
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
+/* LINK COLORS */
+
+a {
+  color: var(--text-color-link);
+}
+a:visited {
+  color: var(--text-color-link-visited);
+}
+a:hover,
+a:active {
+  color: var(--text-color-link-active);
+}
+
+
+/* TYPOGRAPHY */
+
+main {
+  p, h1, h2, h3, h4, h5, h6, ul, ol {
+    width: var(--text-width);
+/*    max-width: 768px;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10rem;
+  }
+}
+
+p, li, h1, h2, h3, h4, h5, h6 {
+  font-weight: 350;
+  line-height: 1;
+}
+p, li {
+  line-height: 1.666;
+}
+figcaption {
+  font-size: 0.9em;
+  font-weight: 350;
+  line-height: 1.5;
+}
+
+
+
+
+/* IMAGES */
+
+img {
+  max-width: 100%;
+}
+figure {
+  position: relative;
+  margin: 2.5rem 0;
+}
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  background-color: #0085FF22;
+/*  padding: 1em;*/
+/*  position: absolute;*/
+/*  top: calc(100% + 3rem);*/
+/*  max-width: 300px;*/
+/*  left: 870px;*/
+}
+
+.screenshot {
+  filter: drop-shadow(rgba(0,0,0,0.45) 0px 12px 12px);
+  max-width: var(--content-width); /* account for mobile */
+}
+
+.float-right {
+  position: initial;
+  float: inline-end;
+  margin: 0;
+}
+
+
+/* Caption below the image */
+figure img {
+  position: relative;
+  z-index: 1;
+}
+figcaption {
+  position: relative;
+  z-index: 0;
+  padding: 4.5em 1.8em 1.5em;
+  left: calc((100vw - var(--text-width)) / 2 + 2em);
+  top: -3em;
+  margin-bottom: -3.5em;
+}
+@media (min-width: 1080px) {
+  figcaption {
+    position: absolute;
+    top: calc(100% - 3em);
+    left: calc( (100vw - var(--text-width)) / 2 + var(--text-width) - 10rem + 2em );
+  }
+}
+
