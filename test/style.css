@@ -45,6 +45,7 @@
   --body-margin: 1rem;
   --content-width: calc(100vw - var(--body-margin) * 2);
   --text-width: min(768px, var(--content-width));
+  --image-gutter: max(var(--body-margin), calc((100vw - var(--text-width)) / 2 - 3rem));
   --syntax-tab-size: 2;
 }
 
@@ -110,7 +111,7 @@ main ol {
 /*  max-width: 768px;*/
   margin-left: auto;
   margin-right: auto;
-  padding-right: 10rem;
+  padding-right: 8rem;
 }
 
 p, li, h1, h2, h3, h4, h5, h6 {
@@ -135,8 +136,9 @@ img {
   max-width: 100%;
 }
 figure {
+  margin: 0;
   position: relative;
-  margin: 2.5rem 0;
+  margin-block: 2.5rem;
 }
 figure img {
   display: block;
@@ -144,12 +146,7 @@ figure img {
   margin-right: auto;
 }
 figcaption {
-  background-color: #0085FF22;
-/*  padding: 1em;*/
-/*  position: absolute;*/
-/*  top: calc(100% + 3rem);*/
-/*  max-width: 300px;*/
-/*  left: 870px;*/
+  background-color: #0085FF11;
 }
 
 .screenshot {
@@ -157,10 +154,20 @@ figcaption {
   max-width: var(--content-width); /* account for mobile */
 }
 
+.float-left,
 .float-right {
   position: relative;
+  margin-block: 0;
+}
+.float-left {
+  float: left;
+  margin-right: 2rem;
+  margin-left: var(--image-gutter);
+}
+.float-right {
   float: right;
-  margin: 0 18em 2em; /* TODO: adjust right margin */
+  margin-right: var(--image-gutter);
+  margin-left: 2rem;
   /* TODO: remove paragraph padding-right */
   /* maybe center the content and position: relative a bit to the left */
 }
@@ -175,7 +182,7 @@ figcaption {
   position: relative;
   z-index: 0;
   padding: 4.5em 1.8em 1.5em;
-  left: calc((100vw - var(--text-width)) / 2 + 2em);
+  left: calc( (100vw - var(--text-width) ) / 2 + 2rem);
   top: -3em;
   margin-bottom: -3.5em;
 }
@@ -183,7 +190,18 @@ figcaption {
   figcaption {
     position: absolute;
     top: calc(100% - 3em);
-    left: calc( (100vw - var(--text-width)) / 2 + var(--text-width) - 10rem + 2em );
+    left: calc( (100vw - var(--text-width) ) / 2 + var(--text-width) - 8rem + 2rem );
   }
 }
 
+.float-left figcaption,
+.float-right figcaption {
+  position: relative;
+  top: -3em;
+  left: unset;
+  margin-bottom: -1rem;
+}
+
+.width-280 {
+  max-width: 280px;
+}
