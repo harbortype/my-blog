@@ -152,9 +152,11 @@ figcaption {
 }
 
 .float-right {
-  position: initial;
-  float: inline-end;
-  margin: 0;
+  position: relative;
+  float: right;
+  margin: 0 18em 2em; /* TODO: adjust right margin */
+  /* TODO: remove paragraph padding-right */
+  /* maybe center the content and position: relative a bit to the left */
 }
 
 
