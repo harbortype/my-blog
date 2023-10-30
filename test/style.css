@@ -97,14 +97,20 @@ a:active {
 
 /* TYPOGRAPHY */
 
-main {
-  p, h1, h2, h3, h4, h5, h6, ul, ol {
-    width: var(--text-width);
-/*    max-width: 768px;*/
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 10rem;
-  }
+main p,
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main ul,
+main ol {
+  width: var(--text-width);
+/*  max-width: 768px;*/
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10rem;
 }
 
 p, li, h1, h2, h3, h4, h5, h6 {
