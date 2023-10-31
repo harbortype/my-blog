@@ -12,7 +12,4 @@ I am adding lighter weights for my [Dona typeface](https://www.harbortype.com/fo
 
 As a personal project, I am experimenting on tracking the books I am reading, want to or have read in [Obsidian](https://obsidian.md).
 
----
-
-This **Now** page was last updated on October 23rd, 2023.<br>
-It is inspired by the movement started by [Derek Sivers](https://nownownow.com/about).
+This **Now** page was inspired by the movement started by [Derek Sivers](https://nownownow.com/about). It&nbsp;was last updated on October 23rd, 2023.
