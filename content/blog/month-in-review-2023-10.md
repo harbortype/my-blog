@@ -24,7 +24,7 @@ I also read the more recent memoir [How to Murder Your Life](https://www.simonan
 
 ## Watching
 
-We’ve watched the first season of The One in Charge (El Encargado).
+We’ve watched the first season of El Encargado (The One in Charge).
 
 I also finished the first season of The Bear. [Episode 7, “Review”](https://www.imdb.com/title/tt18233708/?ref_=ttep_ep7), is my favorite one so far. It was nice to watch a show that does not immediatly makes the main characters fall in love for each other. Let’s hope it keeps it like that in the second season.
 
@@ -42,4 +42,4 @@ The most recent songs I’ve added to my Deezer favorite tracks:
 - [Elephant Woman](https://www.youtube.com/watch?v=SCMMZHlSQCQ) by Blonde Redhead
 - [DNA](https://www.youtube.com/watch?v=W_vR5u5QxZY) by Anna F.
 
-I grew tired of many of the podcasts I usually listen to, so I am giving them a break. On the other hand, I’m binge listening to [If Books Could Kill](https://www.patreon.com/IfBooksPod) and I’m loving it. They have a similar vibe to [Underunderstood](https://underunderstood.com/podcast/new-start-here/, which I like. And I’m also enjoying the latest episodes of [Search Engine](https://pjvogt.substack.com/p/welcome-to-search-engine) (the theme song is incredibly catchy).
+I grew tired of many of the podcasts I usually listen to, so I am giving them a break. On the other hand, I’m binge listening to [If Books Could Kill](https://www.patreon.com/IfBooksPod) and I’m loving it. They have a similar vibe to [Underunderstood](https://underunderstood.com/podcast/new-start-here), which I like. And I’m also enjoying the latest episodes of [Search Engine](https://pjvogt.substack.com/p/welcome-to-search-engine) (the theme song is incredibly catchy).
