@@ -60,9 +60,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--font-family);
-  font-optical-sizing: auto;
-  color: var(--text-color);
   background-color: var(--background-color);
 }
 html {
@@ -82,21 +79,15 @@ html {
 }
 
 
-/* LINK COLORS */
-
-a {
-  color: var(--text-color-link);
-}
-a:visited {
-  color: var(--text-color-link-visited);
-}
-a:hover,
-a:active {
-  color: var(--text-color-link-active);
-}
-
-
 /* TYPOGRAPHY */
+
+html,
+body {
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  font-synthesis: none; /* prevent faux bold, italic and others */
+  color: var(--text-color);
+}
 
 main p,
 main h1,
@@ -128,6 +119,18 @@ figcaption {
 }
 
 
+/* LINK COLORS */
+
+a {
+  color: var(--text-color-link);
+}
+a:visited {
+  color: var(--text-color-link-visited);
+}
+a:hover,
+a:active {
+  color: var(--text-color-link-active);
+}
 
 
 /* IMAGES */
