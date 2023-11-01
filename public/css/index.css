@@ -116,7 +116,8 @@ main h5,
 main h6,
 main ul,
 main ol,
-main pre {
+main pre,
+pre[class*="language-"] {
 /*  max-width: 768px;*/
   width: var(--text-width);
   margin-left: auto;
@@ -275,6 +276,17 @@ pre:not([class*="language-"]) {
 }
 code {
   word-break: break-all;
+}
+code[class*="language-"],
+pre[class*="language-"] {
+  background: none;
+  text-shadow: none;
+  font-family: var(--font-family-monospace);
+  font-size: 0.925em;
+}
+pre[class*="language-"] {
+  border: #0085FF22 solid 1px;
+/*  background: #0085FF05;*/
 }
 
 
