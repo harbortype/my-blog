@@ -289,6 +289,11 @@ pre[class*="language-"] {
   border: #0085FF22 solid 1px;
 /*  background: #0085FF05;*/
 }
+p code {
+  font-size: 0.925em;
+  padding: 0.15em 0.3em;
+  background-color: #0085FF11;
+}
 
 
 /* HEADER */
