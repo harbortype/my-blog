@@ -61,6 +61,7 @@ body {
   padding: 0;
   margin: 0 auto;
   font-family: var(--font-family);
+  font-feature-settings: "ss01" 1, "ss02" 1;
   font-optical-sizing: auto;
   color: var(--text-color);
   background-color: var(--background-color);
