@@ -381,26 +381,45 @@ header:after {
   font-weight: bold;
 }
 
-/* Tags */
-.post-tag {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: capitalize;
-  font-style: italic;
-}
-.postlist-item > .post-tag {
-  align-self: center;
-}
-
 /* Tags list */
-.post-metadata {
-  font-style: italic;
+.post-metadata,
+.tags-list {
   list-style: none;
   padding: 0;
 }
 .post-metadata time {
+  font-style: italic;
   margin-right: 1em;
+}
+
+/* Tags */
+.post-tag {
+  font-size: 0.888em;
+  padding: 0.25em 0.5em;
+  background-color: #0085FF11;
+}
+.tags-list {
+  padding-bottom: 0.5em;
+}
+.tags-list li {
+  display: inline-block;
+}
+a.post-tag {
+  color: var(--text-color-link);
+  text-decoration: none;
+}
+a.post-tag:hover {
+/*  color: #fff;*/
+  color: var(--text-color-link-active);
+  text-decoration: underline;
+}
+
+/* Tags page */
+ul.tags-list-page {
+  padding-left: 0;
+}
+.tags-list-page li {
+  list-style: none;
 }
 
 /* Direct Links / Markdown Headers */
