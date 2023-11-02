@@ -226,6 +226,15 @@ figcaption {
   margin-bottom: -1rem;
 }
 
+.width-column {
+  max-width: var(--text-width);
+}
+.width-480 {
+  max-width: 480px;
+}
+.width-380 {
+  max-width: 380px;
+}
 .width-280 {
   max-width: 280px;
 }
