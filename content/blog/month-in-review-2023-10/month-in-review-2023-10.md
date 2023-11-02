@@ -2,14 +2,13 @@
 title: "Month in review: October 2023"
 description: What I’ve learnt in October 2023
 date: 2023-11-02
-draft: yes
 ---
 Inspired by Melanie Richards’ [Learning Logs](https://melanie-richards.com/blog/tags/learning-log), I’m starting this series to document things that happened to me each month. The reason I’m not calling it “learning logs” is that I feel I’m not very productive in the self-improvement area most of the time, so calling it a “month in review” seems lighter on me. I’ll try my best to remember what I did each month and to keep this going. No promises, though.
 
 October started with me and my wife making the down payment for our new apartment. We are still waiting on the bank to finish their part of the paperwork, but if it all goes well we should have a new home around the end of November.
 
 <figure class="width-480 float-right">
-    <img src="IMG_1447.jpg" alt="Five people stading on a wooden deck with foliage in the background">
+    <img src="IMG_1447.webp" alt="Five people stading on a wooden deck with foliage in the background">
     <figcaption>The Fabio Haag Type team, from left to right: Eduilson Coan, Sofia Mohr, Ana Laydner, me and Fabio Haag.</figcaption>
 </figure>
 
