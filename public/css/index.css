@@ -78,6 +78,9 @@ html {
   white-space: nowrap;
   width: 1px;
 }
+.invisible {
+  display: none;
+}
 
 
 /* LINK COLORS */
