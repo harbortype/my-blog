@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Search
+  order: 4
+---
+<h1>Search</h1>
+
+<p>(Results will open in DuckDuckGo.)</p>
+
+<form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+    <input type="hidden" name="sites" value="https://henriquebeier.com"/>
+    <input type="text" name="q" placeholder="Search…" aria-label="Search https://henriquebeier.com on DuckDuckGo"/>
+    <button type="submit">Search</button>
+</form>
+
+<h2>Tagged posts</h2>
+
+<p>You might also find what you are looking for in one of the tags below:</p>
+
+<ul class="tags-list-page">
+{% for tag in collections.all | getAllTags | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+  <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>

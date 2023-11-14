@@ -60,9 +60,6 @@ html,
 body {
   padding: 0;
   margin: 0 auto;
-  font-family: var(--font-family);
-  font-feature-settings: "ss01" 1, "ss02" 1;
-  font-optical-sizing: auto;
   color: var(--text-color);
   background-color: var(--background-color);
 }
@@ -108,6 +105,15 @@ header a:active {
 
 /* TYPOGRAPHY */
 
+html,
+body,
+input,
+button {
+  font-family: var(--font-family);
+  font-feature-settings: "ss01" 1, "ss02" 1;
+  font-optical-sizing: auto;
+}
+
 main p,
 main h1,
 main h2,
@@ -118,7 +124,8 @@ main h6,
 main ul,
 main ol,
 main pre,
-pre[class*="language-"] {
+pre[class*="language-"],
+#ddgSearch {
 /*  max-width: 768px;*/
   width: var(--text-width);
   margin-left: auto;
@@ -135,7 +142,8 @@ pre[class*="language-"] {
   main h6,
   main ul,
   main ol,
-  main pre {
+  main pre,
+  #ddgSearch {
     padding-right: 8rem;
   }
 }
@@ -265,6 +273,9 @@ table th {
   padding-right: 1em;
 }
 
+
+/* CODE BLOCKS */
+
 pre,
 code {
   font-family: var(--font-family-monospace);
@@ -302,6 +313,17 @@ p code {
   font-size: 0.925em;
   padding: 0.15em 0.3em;
   background-color: #0085FF11;
+}
+
+
+/* FORMS AND INPUTS */
+
+input, button {
+  font-size: 0.8333333em;
+  padding: 0.6em 0.8em;
+}
+#ddgSearch {
+  margin-bottom: 3rem;
 }
 
 
