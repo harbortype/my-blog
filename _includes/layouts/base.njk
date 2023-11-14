@@ -49,11 +49,11 @@
 				</ul>
 			</nav>
 
-			<div class="search-ui invisible">
-				<input type="text" id="search-str" spellcheck="false">
-				<ol class="results-ui"></ol>
-			</div>
 		</header>
+		<div class="search-ui invisible">
+			<input type="text" id="search-str" spellcheck="false">
+			<ul class="results-ui invisible"></ul>
+		</div>
 
 		<main id="skip">
 			{{ content | safe }}

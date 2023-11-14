@@ -255,7 +255,9 @@ figcaption {
 
 
 
-p:last-child {
+p:last-child,
+ol:last-child,
+ul:last-child {
   margin-bottom: 0;
 }
 h1 {
@@ -341,7 +343,8 @@ button {
 /* Dates */
 input[type="date"],
 input[type="datetime-local"],
-input[type="time"] {
+input[type="time"],
+input[type="search"] {
   padding: calc(0.6em - 2px) 0.8em;
 }
 
@@ -400,6 +403,16 @@ header:after {
 .nav a[href][aria-current="page"] {
   text-decoration: underline;
 }
+
+/* Search */
+.search-ui {
+  max-width: var(--text-width);
+  margin: 0 auto;
+  padding: 1em;
+  background-color: var(--color-gray-20);
+  border-bottom: 1px solid var(--color-gray-20);
+}
+
 
 /* Posts list */
 .postlist {

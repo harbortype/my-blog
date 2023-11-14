@@ -7,6 +7,7 @@ function clearResults() {
   while (resultsUI.firstChild) {
     resultsUI.removeChild(resultsUI.firstChild);
   }
+  resultsUI.classList.add("invisible")
 }
 
 // Custom button click event handler
@@ -40,6 +41,7 @@ function find(str) {
     link.setAttribute("href", results[item].url);
     listItem.appendChild(link);
     resultsUI.appendChild(listItem);
+    resultsUI.classList.remove("invisible");
   }
 }
 
