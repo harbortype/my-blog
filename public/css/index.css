@@ -318,9 +318,36 @@ p code {
 
 /* FORMS AND INPUTS */
 
-input, button {
+/* Todos os inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="time"],
+input[type="number"],
+button {
   font-size: 0.8333333em;
   padding: 0.6em 0.8em;
+  border: var(--color-gray-50) solid 1px;
+  border-radius: 3px;
+}
+
+/* Dates */
+input[type="date"],
+input[type="datetime-local"],
+input[type="time"] {
+  padding: calc(0.6em - 2px) 0.8em;
+}
+
+/* Botões */
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: var(--color-gray-20);
 }
 #ddgSearch {
   margin-bottom: 3rem;
