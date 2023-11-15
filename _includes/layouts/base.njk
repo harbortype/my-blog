@@ -36,23 +36,28 @@
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
-		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+		<header class="background-accent">
+			<div class="header-content content-width">
+				<a href="/" class="home-link">{{ metadata.title }}</a>
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}" id="{{ entry.key | lower }}-link"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
+				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<nav>
+					<h2 class="visually-hidden">Top level navigation menu</h2>
+					<ul class="nav">
+					{%- for entry in collections.all | eleventyNavigation %}
+						<li class="nav-item"><a href="{{ entry.url }}" id="{{ entry.key | lower }}-link"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{%- endfor %}
+					</ul>
+				</nav>
 
+				<input type="search" id="search-str" class="invisible" spellcheck="false">
+			</div>
 		</header>
-		<div class="search-ui invisible">
-			<input type="text" id="search-str" spellcheck="false">
-			<ul class="results-ui invisible"></ul>
+		<div class="search-block">
+			<div class="results-ui content-width invisible">
+				<h2>Search results</h2>
+				<ul></ul>
+			</div>
 		</div>
 
 		<main id="skip">

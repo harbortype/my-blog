@@ -1,13 +1,13 @@
 var searchIndex = null;
-var searchUI = document.querySelector(".search-ui")
-var resultsUI = document.querySelector(".results-ui")
-var searchInput = document.querySelector("#search-str")
+var resultsUI = document.querySelector(".results-ui");
+var resultsList = document.querySelector(".results-ui ul");
+var searchInput = document.querySelector("#search-str");
 
 function clearResults() {
-  while (resultsUI.firstChild) {
-    resultsUI.removeChild(resultsUI.firstChild);
+  while (resultsList.firstChild) {
+    resultsList.removeChild(resultsList.firstChild);
   }
-  resultsUI.classList.add("invisible")
+  resultsUI.classList.add("invisible");
 }
 
 // Custom button click event handler
@@ -40,7 +40,7 @@ function find(str) {
     link.textContent = results[item].title;
     link.setAttribute("href", results[item].url);
     listItem.appendChild(link);
-    resultsUI.appendChild(listItem);
+    resultsList.appendChild(listItem);
     resultsUI.classList.remove("invisible");
   }
 }
@@ -53,8 +53,11 @@ buttonHandler("#search-link", () => {
     searchIndex = response.search;
   });
   // Show the search UI and focus on the text field
-  searchUI.classList.toggle("invisible");
+  searchInput.classList.toggle("invisible");
   searchInput.focus();
+  if (resultsList.firstChild) {
+    resultsUI.classList.toggle("invisible");
+  }
   // Listen for input changes
   searchInput.addEventListener("keyup", event => {
     var str = searchInput.value;
