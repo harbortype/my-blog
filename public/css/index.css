@@ -28,7 +28,8 @@
   --text-color: #000;
   --text-color-link: oklch(63% 0.2 255);
   --text-color-link-active: oklch(63% 0.2 23);
-  --text-color-link-visited: oklch(50% 0.2 310);
+  --text-color-link-visited: oklch(55% 0.2 290);
+  --rgb-accent: 255, 227, 206;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -181,7 +182,7 @@ figure img {
   margin-right: auto;
 }
 figcaption {
-  background-color: #0085FF11;
+  background-color: rgb(var(--rgb-accent), 10%);
 }
 
 .screenshot {
@@ -311,13 +312,12 @@ pre[class*="language-"] {
   font-size: 0.925em;
 }
 pre[class*="language-"] {
-  border: #0085FF22 solid 1px;
-/*  background: #0085FF05;*/
+  border: rgb(var(--rgb-accent), 20%) solid 1px;
 }
 p code {
   font-size: 0.925em;
   padding: 0.15em 0.3em;
-  background-color: #0085FF11;
+  background-color: rgb(var(--rgb-accent), 10%);
 }
 
 
@@ -470,7 +470,7 @@ header:after {
 .post-tag {
   font-size: 0.888em;
   padding: 0.25em 0.5em;
-  background-color: #0085FF11;
+  background-color: rgb(var(--rgb-accent), 10%);
 }
 .tags-list {
   padding-bottom: 0.5em;
