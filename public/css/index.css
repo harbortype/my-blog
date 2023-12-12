@@ -351,6 +351,9 @@ button {
   padding: 0.6em 0.8em;
   border: var(--color-gray-50) solid 1px;
   border-radius: 3px;
+
+  max-height: 1.2em;
+  box-sizing: content-box;
 }
 
 /* Dates */
