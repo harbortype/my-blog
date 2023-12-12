@@ -48,6 +48,10 @@
   --text-width: min(768px, var(--content-width));
   --image-gutter: max(var(--body-margin), calc((100vw - var(--text-width)) / 2 - 3rem));
   --syntax-tab-size: 2;
+
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 
