@@ -52,8 +52,8 @@ module.exports = function(eleventyConfig) {
 		alt,
 		caption = undefined,
 		className = undefined,
-		widths = [400, 800, 1280],
-		formats = ["webp", "jpeg"],
+		widths = ["auto"],
+		formats = ["webp", "jpeg", "auto"],
 		sizes = "100vw"
 	) {
 		const imageMetadata = await eleventyImage(src, {
@@ -83,15 +83,11 @@ module.exports = function(eleventyConfig) {
 			.join("");
 
 		// Generate the <img> tag
-		const getLargestImage = (format) => {
-			const images = imageMetadata[format];
-			return images[images.length - 1];
-		}
-		const largestUnoptimizedImg = getLargestImage(formats[0]);
+		const smallestImage = imageMetadata.jpeg[0];
 		const imgAttributes = stringifyAttributes({
-			src: largestUnoptimizedImg.url,
-			// width: largestUnoptimizedImg.width,
-			// height: largestUnoptimizedImg.height,
+			src: smallestImage.url,
+			width: smallestImage.width,
+			height: smallestImage.height,
 			alt,
 			loading: "lazy",
 			decoding: "async",
@@ -101,6 +97,7 @@ module.exports = function(eleventyConfig) {
 		// Assemble the <picture> tag
 		const figureAttributes = stringifyAttributes({
 			class: className,
+			style: `max-width: min(${smallestImage.width}px, var(--content-width)););`,
 		});
 
 		var figureElements = [];

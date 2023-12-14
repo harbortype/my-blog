@@ -193,6 +193,7 @@ figure {
 }
 figure img {
   display: block;
+  height: auto;
 }
 /* Caption below the image */
 figcaption {
@@ -251,6 +252,7 @@ figcaption {
 .screenshot {
   filter: drop-shadow(rgba(0,0,0,0.45) 0px 12px 12px);
   max-width: var(--content-width); /* account for mobile */
+  margin-block-end: 2.5rem;
 }
 
 
