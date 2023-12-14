@@ -14,7 +14,7 @@ const stringifyAttributes = (attributeMap) => {
 		.join(" ");
 };
 
-module.exports = eleventyConfig => {
+module.exports = function(eleventyConfig) {
 	function relativeToInputPath(inputPath, relativeFilePath) {
 		let split = inputPath.split("/");
 		split.pop();
@@ -47,7 +47,7 @@ module.exports = eleventyConfig => {
 
 	// My custom picture shortcode
 	// https://www.aleksandrhovhannisyan.com/blog/eleventy-image-plugin/#custom-image-markup
-	eleventyConfig.addAsyncShortcode("customPicture", async (
+	eleventyConfig.addAsyncShortcode("figure", async function(
 		src,
 		alt,
 		caption = undefined,
@@ -55,7 +55,7 @@ module.exports = eleventyConfig => {
 		widths = [400, 800, 1280],
 		formats = ["webp", "jpeg"],
 		sizes = "100vw"
-	) => {
+	) {
 		const imageMetadata = await eleventyImage(src, {
 			widths: [...widths, null],
 			formats: [...formats, null],
@@ -80,7 +80,7 @@ module.exports = eleventyConfig => {
 				// Return one <source> per format
 				return `<source ${sourceAttributes}>`;
 			})
-			.join("\n");
+			.join("");
 
 		// Generate the <img> tag
 		const getLargestImage = (format) => {
@@ -99,25 +99,21 @@ module.exports = eleventyConfig => {
 		const imgHtmlString = `<img ${imgAttributes}>`;
 
 		// Assemble the <picture> tag
-		const pictureAttributes = stringifyAttributes({
+		const figureAttributes = stringifyAttributes({
 			class: className,
 		});
-		// If there is a caption, assemble a <figure> tag instead,
-		// otherwise, keep it as <picture>
-		if (typeof caption === "undefined") {
-			const picture = `<picture ${pictureAttributes}>
-${sourceHtmlString}
-${imgHtmlString}
-</picture>`;
-			return picture;
-		} else {
-			const picture = `<figure ${pictureAttributes}>
-${sourceHtmlString}
-${imgHtmlString}
-<figcaption>${caption}</figcaption>
-</figure>`;
-			return picture;
-		}
 
+		var figureElements = [];
+		figureElements.push(`<figure ${figureAttributes}>`);
+		figureElements.push(`<picture>`);
+		figureElements.push(`${sourceHtmlString}`);
+		figureElements.push(`${imgHtmlString}`);
+		figureElements.push(`</picture>`);
+		if (caption) {
+			figureElements.push(`<figcaption>${caption}</figcaption>`);
+		}
+		figureElements.push(`</figure>`);
+		const figure = figureElements.join("");
+		return figure;
 	});
 };

@@ -7,7 +7,7 @@ Inspired by Melanie Richards’ [Learning Logs](https://melanie-richards.com/blo
 
 October started with me and my wife making the down payment for our new apartment. We are still waiting on the bank to finish their part of the paperwork, but if it all goes well we should have a new home around the end of November.
 
-{% customPicture "content/img/IMG_1447.webp", "Five people stading on a wooden deck with foliage in the background", "The Fabio Haag Type team, from left to right: Eduilson Coan, Sofia Mohr, Ana Laydner, me and Fabio Haag.", "width-480 float-right", [480, 960] %}
+{% figure "content/img/IMG_1447.webp", "Five people stading on a wooden deck with foliage in the background", "The Fabio Haag Type team, from left to right: Eduilson Coan, Sofia Mohr, Ana Laydner, me and Fabio Haag.", "width-480 float-right", [480, 960] %}
 
 Around the middle of the month there was a [Fabio Haag Type](https://fabiohaagtype.com/en) team meetup. It was not as formal as I make it sound. We are a remote team, so it is nice to see one another face to face once in a while. We had lunches, beers and worked a little bit as well. It was very fun :)
 
