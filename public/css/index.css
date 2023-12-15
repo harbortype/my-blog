@@ -21,23 +21,28 @@
 
 /* Theme colors */
 :root {
+  --rgb-accent: 255, 227, 206;
+  --background-color: #fff;
   --color-gray-20: #e0e0e0;
   --color-gray-50: #C0C0C0;
   --color-gray-90: #333;
-  --background-color: #fff;
   --text-color: #000;
   --text-color-link: oklch(63% 0.2 255);
   --text-color-link-active: oklch(63% 0.2 23);
   --text-color-link-visited: oklch(55% 0.2 290);
-  --rgb-accent: 255, 227, 206;
+  --code-color: var(--text-color);
 }
 @media (prefers-color-scheme: dark) {
   :root {
+    --rgb-accent: 255, 200, 160;
+    --background-color: oklch(28% 0.02 59);
     --color-gray-20: #e0e0e0;
     --color-gray-50: #C0C0C0;
     --color-gray-90: #dad8d8;
     --text-color: #f0f0f0;
-    --background-color: #15202b;
+    --text-color-link: rgb(var(--rgb-accent));
+    --text-color-link-visited: oklch(80% 0.18 295);
+    --code-color: #fff;
   }
 }
 
@@ -204,6 +209,11 @@ figcaption {
   margin-bottom: -3em;
   background-color: rgb(var(--rgb-accent), 30%);
 }
+@media (prefers-color-scheme: dark) {
+  figcaption {
+    background-color: rgb(var(--rgb-accent), 15%);
+  }
+}
 
 .float-left,
 .float-right {
@@ -308,6 +318,7 @@ code {
 }
 code[class*="language-"],
 pre[class*="language-"] {
+  color: var(--code-color);
   background: none;
   text-shadow: none;
   font-family: var(--font-family-monospace);
@@ -399,6 +410,11 @@ header {
 }
 header.background-accent {
   border-bottom-color: rgb(var(--rgb-accent));
+}
+@media (prefers-color-scheme: dark) {
+  .background-accent {
+    background-color: var(--background-color);
+  }
 }
 
 /* Nav */
@@ -500,6 +516,11 @@ nav {
   font-size: 0.888em;
   padding: 0.25em 0.5em;
   background-color: rgb(var(--rgb-accent), 30%);
+}
+@media (prefers-color-scheme: dark) {
+  .post-tag {
+    background-color: rgb(var(--rgb-accent), 15%);
+  }
 }
 .tags-list {
   padding-bottom: 0.5em;
