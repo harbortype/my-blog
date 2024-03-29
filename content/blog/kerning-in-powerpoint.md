@@ -1,7 +1,7 @@
 ---
 title: "Kerning in PowerPoint"
 description: Making kerning work in PowerPoint is still a process
-date: Last modified
+date: 2023-12-14
 tags:
     - font engineering
     - python

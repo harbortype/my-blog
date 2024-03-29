@@ -2,6 +2,8 @@
 title: "Month in review: October 2023"
 description: What I’ve learnt in October 2023
 date: 2023-11-02
+tags:
+    - month in review
 ---
 Inspired by Melanie Richards’ [Learning Logs](https://melanie-richards.com/blog/tags/learning-log), I’m starting this series to document things that happened to me each month. The reason I’m not calling it “learning logs” is that I feel I’m not very productive in the self-improvement area most of the time, so calling it a “month in review” seems lighter on me. I’ll try my best to remember what I did each month and to keep this going. No promises, though.
 
