@@ -1,7 +1,7 @@
 ---
 title: "Type Cooker: auxiliary"
 description: Making kerning work in PowerPoint is still a process
-date: Last modified
+date: 2024-03-28
 tags:
     - type cooker
 ---
