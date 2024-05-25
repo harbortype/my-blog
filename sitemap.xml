@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/hello-world-once-again/</loc>
+		<lastmod>2023-10-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/i-also-love-typography/</loc>
+		<lastmod>2023-10-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/month-in-review-2023-10/</loc>
+		<lastmod>2023-11-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/kerning-in-powerpoint/</loc>
+		<lastmod>2023-12-14</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/2024-03-28-auxiliary/</loc>
+		<lastmod>2024-03-28</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/bebop/</loc>
+		<lastmod>2024-05-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/can-ai-interpret-sarcasm/</loc>
+		<lastmod>2024-05-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/blog/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/now/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/search.json</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/search/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/tags/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/tags/type-cooker/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/tags/software/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/tags/font-engineering/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/tags/python/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/eleventy-base-blog/tags/month-in-review/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+</urlset>
