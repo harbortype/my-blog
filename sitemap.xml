@@ -77,17 +77,17 @@
 	</url>
 	
 	<url>
-		<loc>https://henriquebeier.com/tags/month-in-review/</loc>
-		<lastmod>2024-05-25</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://henriquebeier.com/tags/font-engineering/</loc>
 		<lastmod>2024-05-25</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://henriquebeier.com/tags/python/</loc>
+		<lastmod>2024-05-25</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://henriquebeier.com/tags/month-in-review/</loc>
 		<lastmod>2024-05-25</lastmod>
 	</url>
 </urlset>
