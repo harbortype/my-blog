@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Henrique Beier</title>
 	<subtitle>My own personal web.</subtitle>
-	<link href="https://henriquebeier.com/eleventy-base-blog/feed/feed.xml" rel="self"/>
-	<link href="https://henriquebeier.com/eleventy-base-blog/"/>
+	<link href="https://henriquebeier.com/my-blog/feed/feed.xml" rel="self"/>
+	<link href="https://henriquebeier.com/my-blog/"/>
 	<updated>2024-05-23T00:00:00Z</updated>
 	<id>https://henriquebeier.com/</id>
 	<author>
@@ -13,19 +13,19 @@
 	
 	<entry>
 		<title>Can AI interpret sarcasm?</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/can-ai-interpret-sarcasm/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/can-ai-interpret-sarcasm/"/>
 		<updated>2024-05-23T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/can-ai-interpret-sarcasm/</id>
+		<id>https://henriquebeier.com/my-blog/blog/can-ai-interpret-sarcasm/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https://www.theverge.com/2024/5/23/24162896/google-ai-overview-hallucinations-glue-in-pizza&quot;&gt;Apparently not.&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
 		<title>Bebop</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/bebop/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/bebop/"/>
 		<updated>2024-05-20T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/bebop/</id>
-		<content type="html">&lt;figure class=&quot;&quot; style=&quot;max-width: min(900px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-900.webp 900w, https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-1800.webp 1800w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-900.jpeg 900w, https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-1800.jpeg 1800w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-900.png 900w, https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-1800.png 1800w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/eleventy-base-blog/img/QbM6vm3KEm-900.jpeg&quot; width=&quot;900&quot; height=&quot;480&quot; alt=&quot;Four mockups of an iPhone showing different screens of the Bebop app.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;
+		<id>https://henriquebeier.com/my-blog/blog/bebop/</id>
+		<content type="html">&lt;figure class=&quot;&quot; style=&quot;max-width: min(900px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/QbM6vm3KEm-900.webp 900w, https://henriquebeier.com/my-blog/img/QbM6vm3KEm-1800.webp 1800w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/QbM6vm3KEm-900.jpeg 900w, https://henriquebeier.com/my-blog/img/QbM6vm3KEm-1800.jpeg 1800w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/QbM6vm3KEm-900.png 900w, https://henriquebeier.com/my-blog/img/QbM6vm3KEm-1800.png 1800w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/my-blog/img/QbM6vm3KEm-900.jpeg&quot; width=&quot;900&quot; height=&quot;480&quot; alt=&quot;Four mockups of an iPhone showing different screens of the Bebop app.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;
 &lt;p&gt;What an amazing piece of software &lt;a href=&quot;https://www.jackcheng.com/bebop/&quot;&gt;Bebop&lt;/a&gt; is. It opens up instantly with the keyboard ready to go. You type your thoughts into it and tap Save Note. It saves it to a folder you have configured and starts a new blank note. Just perfect!&lt;/p&gt;
 &lt;p&gt;I came across it yesterday on the &lt;a href=&quot;https://www.theverge.com/24158659/ai-assistant-chatgpt-gpt4o-google-search-dyson-washg1-installer&quot;&gt;Installer&lt;/a&gt; newsletter and I’m looking forward to integrating it into my workflow.&lt;/p&gt;
 &lt;p&gt;Also, lovely shade of yellow.&lt;/p&gt;
@@ -34,10 +34,10 @@
 	
 	<entry>
 		<title>Type Cooker: auxiliary</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/2024-03-28-auxiliary/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/2024-03-28-auxiliary/"/>
 		<updated>2024-03-28T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/2024-03-28-auxiliary/</id>
-		<content type="html">&lt;figure class=&quot;&quot; style=&quot;max-width: min(960px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-960.webp 960w, https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-1920.webp 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-960.jpeg 960w, https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-1920.jpeg 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-960.png 960w, https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-1920.png 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/eleventy-base-blog/img/y-KqGlayNb-960.jpeg&quot; width=&quot;960&quot; height=&quot;360&quot; alt=&quot;The word “auxiliary” set over a beige background.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;
+		<id>https://henriquebeier.com/my-blog/blog/2024-03-28-auxiliary/</id>
+		<content type="html">&lt;figure class=&quot;&quot; style=&quot;max-width: min(960px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/y-KqGlayNb-960.webp 960w, https://henriquebeier.com/my-blog/img/y-KqGlayNb-1920.webp 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/y-KqGlayNb-960.jpeg 960w, https://henriquebeier.com/my-blog/img/y-KqGlayNb-1920.jpeg 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/y-KqGlayNb-960.png 960w, https://henriquebeier.com/my-blog/img/y-KqGlayNb-1920.png 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/my-blog/img/y-KqGlayNb-960.jpeg&quot; width=&quot;960&quot; height=&quot;360&quot; alt=&quot;The word “auxiliary” set over a beige background.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;
 &lt;p&gt;First exercise using &lt;a href=&quot;http://typecooker.com/&quot;&gt;TypeCooker&lt;/a&gt; to flex my creativity. This took me longer than I’d like to admit. I’m still not really happy with the way the strokes join in the crotch areas but hey, I need to let them go.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TypeCooker parameters:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -53,9 +53,9 @@
 	
 	<entry>
 		<title>Kerning in PowerPoint</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/kerning-in-powerpoint/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/kerning-in-powerpoint/"/>
 		<updated>2023-12-14T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/kerning-in-powerpoint/</id>
+		<id>https://henriquebeier.com/my-blog/blog/kerning-in-powerpoint/</id>
 		<content type="html">&lt;p&gt;Microsoft Word expects kerning data in a GPOS table. PowerPoint expects it in an old style kern table. This is how I make it work in both apps.&lt;/p&gt;
 &lt;p&gt;In Glyphs, I first prepare my font using the &lt;em&gt;Kern Flattener&lt;/em&gt; script by &lt;a href=&quot;https://github.com/mekkablue/Glyphs-Scripts&quot;&gt;mekkablue&lt;/a&gt;. It will open a copy of the current document, turn all group kerning into glyph kerning and set some other parameters. I export this new document somewhere as TTF and close the file. There’s no need to save it as it will not be needed anymore.&lt;/p&gt;
 &lt;p&gt;I then extract the &lt;code&gt;kern&lt;/code&gt; table of the exported fonts as XML using &lt;strong&gt;&lt;a href=&quot;https://github.com/fonttools/fonttools&quot;&gt;ttx&lt;/a&gt;&lt;/strong&gt;. The following Terminal command will do that for a couple of font files:&lt;/p&gt;
@@ -76,7 +76,7 @@ kern_font = TTFont()
 kern_font.importXML(kern_file)
 ttf_font[&quot;kern&quot;] = kern_font[&quot;kern&quot;]
 ttf_font.save(ttf_file)&lt;/code&gt;&lt;/pre&gt;
-&lt;figure class=&quot;screenshot&quot; style=&quot;max-width: min(960px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-960.webp 960w, https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-1920.webp 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-960.jpeg 960w, https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-1920.jpeg 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-960.png 960w, https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-1920.png 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/eleventy-base-blog/img/AkKQ9PF8UG-960.jpeg&quot; width=&quot;960&quot; height=&quot;700&quot; alt=&quot;Screenshot of a PowerPoint for Mac window. The slide being editted contains a text box with the word “Type”, which demonstrates that kerning is working because the “y” is slightly tucked under the right side of the “T” horizontal stroke.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;
+&lt;figure class=&quot;screenshot&quot; style=&quot;max-width: min(960px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-960.webp 960w, https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-1920.webp 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-960.jpeg 960w, https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-1920.jpeg 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/png&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-960.png 960w, https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-1920.png 1920w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/my-blog/img/AkKQ9PF8UG-960.jpeg&quot; width=&quot;960&quot; height=&quot;700&quot; alt=&quot;Screenshot of a PowerPoint for Mac window. The slide being editted contains a text box with the word “Type”, which demonstrates that kerning is working because the “y” is slightly tucked under the right side of the “T” horizontal stroke.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;
 &lt;p&gt;I have tested this with a font that has stylistic sets (unencoded glyphs) which have kerning values. Surprisingly, the kerning of those glyphs works in Word and does not affect the kerning in PowerPoint. This was tested to be working on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;version 2309 of Word and PowerPoint 365&lt;/li&gt;
@@ -87,23 +87,23 @@ ttf_font.save(ttf_file)&lt;/code&gt;&lt;/pre&gt;
 	
 	<entry>
 		<title>Month in review: October 2023</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/month-in-review-2023-10/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/month-in-review-2023-10/"/>
 		<updated>2023-11-02T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/month-in-review-2023-10/</id>
+		<id>https://henriquebeier.com/my-blog/blog/month-in-review-2023-10/</id>
 		<content type="html">&lt;p&gt;Inspired by Melanie Richards’ &lt;a href=&quot;https://melanie-richards.com/blog/tags/learning-log&quot;&gt;Learning Logs&lt;/a&gt;, I’m starting this series to document things that happened to me each month. The reason I’m not calling it “learning logs” is that I feel I’m not very productive in the self-improvement area most of the time, so calling it a “month in review” seems lighter on me. I’ll try my best to remember what I did each month and to keep this going. No promises, though.&lt;/p&gt;
 &lt;p&gt;October started with me and my wife making the down payment for our new apartment. We are still waiting on the bank to finish their part of the paperwork, but if it all goes well we should have a new home around the end of November.&lt;/p&gt;
-&lt;figure class=&quot;width-480 float-right&quot; style=&quot;max-width: min(480px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-480.webp 480w, https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-960.webp 960w, https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-2048.webp 2048w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-480.jpeg 480w, https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-960.jpeg 960w, https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-2048.jpeg 2048w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/eleventy-base-blog/img/y3A1vU0oM0-480.jpeg&quot; width=&quot;480&quot; height=&quot;319&quot; alt=&quot;Five people stading on a wooden deck with foliage in the background&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;figcaption&gt;The Fabio Haag Type team, from left to right: Eduilson Coan, Sofia Mohr, Ana Laydner, me and Fabio Haag.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure class=&quot;width-480 float-right&quot; style=&quot;max-width: min(480px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/y3A1vU0oM0-480.webp 480w, https://henriquebeier.com/my-blog/img/y3A1vU0oM0-960.webp 960w, https://henriquebeier.com/my-blog/img/y3A1vU0oM0-2048.webp 2048w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/my-blog/img/y3A1vU0oM0-480.jpeg 480w, https://henriquebeier.com/my-blog/img/y3A1vU0oM0-960.jpeg 960w, https://henriquebeier.com/my-blog/img/y3A1vU0oM0-2048.jpeg 2048w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/my-blog/img/y3A1vU0oM0-480.jpeg&quot; width=&quot;480&quot; height=&quot;319&quot; alt=&quot;Five people stading on a wooden deck with foliage in the background&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;figcaption&gt;The Fabio Haag Type team, from left to right: Eduilson Coan, Sofia Mohr, Ana Laydner, me and Fabio Haag.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;Around the middle of the month there was a &lt;a href=&quot;https://fabiohaagtype.com/en&quot;&gt;Fabio Haag Type&lt;/a&gt; team meetup. It was not as formal as I make it sound. We are a remote team, so it is nice to see one another face to face once in a while. We had lunches, beers and worked a little bit as well. It was very fun :)&lt;/p&gt;
 &lt;p&gt;On smaller news, it’s been a while that my PS4 wouldn’t boot and I finally took it to a repair shop for an evaluation. As I only used it to play Rocket League (which has become kinda toxic) or when we had guests, I didn’t have interested in getting it fixed. Instead, I proposed an exchange of the bricked PS4 for a pair of Joy‑Cons and they accepted. A small win!&lt;/p&gt;
 &lt;p&gt;And towards the end of the month I restarted this blog and that’s something worth celebrating.&lt;/p&gt;
-&lt;h2 id=&quot;reading&quot; tabindex=&quot;-1&quot;&gt;Reading &lt;a class=&quot;header-anchor&quot; href=&quot;https://henriquebeier.com/eleventy-base-blog/blog/month-in-review-2023-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;reading&quot; tabindex=&quot;-1&quot;&gt;Reading &lt;a class=&quot;header-anchor&quot; href=&quot;https://henriquebeier.com/my-blog/blog/month-in-review-2023-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;I’ve been trying to ditch YouTube before bedtime and read a book instead. The problem is, depending on the book I’m reading, I get sleepy very quickly and it takes me ages to finish anything. As I have lunch by myself during the week, I figured I should take my Kindle with me and use that time to read as well. It has been very effective.&lt;/p&gt;
 &lt;p&gt;This month I finished reading the Truman Capote’s classic &lt;a href=&quot;https://www.penguinrandomhouse.com/books/23728/in-cold-blood-by-truman-capote/&quot;&gt;In Cold Blood&lt;/a&gt;. Capote’s retelling of the Holcomb murders is so detailed that I am sure at least half of the things he narrates did not really happen. But it was a nice read, regardless.&lt;/p&gt;
 &lt;p&gt;I also read the more recent memoir &lt;a href=&quot;https://www.simonandschuster.ca/books/How-to-Murder-Your-Life/Cat-Marnell/9781476752419&quot;&gt;How to Murder Your Life&lt;/a&gt; by Cat Marnell. The autobiography of a high-functioning drug addict working on the fashion publishing industry, this one was a rollercoaster. The author herself recognizes there’s something about the downfall of rich privileged people that makes it hard for us to look away. Surprisingly a page turner.&lt;/p&gt;
-&lt;h2 id=&quot;watching&quot; tabindex=&quot;-1&quot;&gt;Watching &lt;a class=&quot;header-anchor&quot; href=&quot;https://henriquebeier.com/eleventy-base-blog/blog/month-in-review-2023-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;watching&quot; tabindex=&quot;-1&quot;&gt;Watching &lt;a class=&quot;header-anchor&quot; href=&quot;https://henriquebeier.com/my-blog/blog/month-in-review-2023-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We’ve watched the first season of &lt;a href=&quot;https://www.imdb.com/title/tt14362262&quot;&gt;El Encargado&lt;/a&gt; (The One in Charge) and have finally finished all seasons of &lt;a href=&quot;https://www.youtube.com/@Taskmaster&quot;&gt;Taskmaster&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;I also finished the first season of &lt;a href=&quot;https://www.imdb.com/title/tt14452776&quot;&gt;The Bear&lt;/a&gt;. My favorite episode so far is &lt;a href=&quot;https://www.imdb.com/title/tt18233708&quot;&gt;episode 7, “Review”&lt;/a&gt;. It was nice to watch a show that does not immediatly makes the main characters fall in love for each other. Let’s hope it keeps it like that in the second season.&lt;/p&gt;
-&lt;h2 id=&quot;listening&quot; tabindex=&quot;-1&quot;&gt;Listening &lt;a class=&quot;header-anchor&quot; href=&quot;https://henriquebeier.com/eleventy-base-blog/blog/month-in-review-2023-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;listening&quot; tabindex=&quot;-1&quot;&gt;Listening &lt;a class=&quot;header-anchor&quot; href=&quot;https://henriquebeier.com/my-blog/blog/month-in-review-2023-10/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The most recent songs I’ve added to my Deezer favorite tracks:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Nlwp9GT2KFQ&quot;&gt;Popstar researching oblivion&lt;/a&gt; by Flotation Toy Warning&lt;/li&gt;
@@ -121,9 +121,9 @@ ttf_font.save(ttf_file)&lt;/code&gt;&lt;/pre&gt;
 	
 	<entry>
 		<title>I also ❤️ Typography</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/i-also-love-typography/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/i-also-love-typography/"/>
 		<updated>2023-10-26T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/i-also-love-typography/</id>
+		<id>https://henriquebeier.com/my-blog/blog/i-also-love-typography/</id>
 		<content type="html">&lt;p&gt;Today, some of my fonts were launched at &lt;a href=&quot;https://fonts.ilovetypography.com/fonts/harbor-type&quot;&gt;I Love Typography&lt;/a&gt;. I used to spend hours and hours reading ILT back when I was in college. It was (and probably still is) the most complete blog on the topic. I mean, just take a look at &lt;a href=&quot;https://ilovetypography.com/contents/&quot;&gt;the archive&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The last few years has seen the consolidation of loads of intellectual property in very few hands. You could almost say the font market is starting to look like a Mono... poly.&lt;/p&gt;
 &lt;p&gt;From my perspective, ILT brings a breath of fresh air into this market by being a more humane alternative to other big font distributors. I love that they have a curation of the products they sell and promote, plus their proprietary &lt;a href=&quot;https://fonts.ilovetypography.com/cedars&quot;&gt;CEDARS+ search&lt;/a&gt;. Have you tried it? It is so powerful!&lt;/p&gt;
@@ -133,9 +133,9 @@ ttf_font.save(ttf_file)&lt;/code&gt;&lt;/pre&gt;
 	
 	<entry>
 		<title>Hello world, once again</title>
-		<link href="https://henriquebeier.com/eleventy-base-blog/blog/hello-world-once-again/"/>
+		<link href="https://henriquebeier.com/my-blog/blog/hello-world-once-again/"/>
 		<updated>2023-10-23T00:00:00Z</updated>
-		<id>https://henriquebeier.com/eleventy-base-blog/blog/hello-world-once-again/</id>
+		<id>https://henriquebeier.com/my-blog/blog/hello-world-once-again/</id>
 		<content type="html">&lt;p&gt;The &lt;a href=&quot;https://pluralistic.net/2023/01/21/potemkin-ai/#hey-guys&quot;&gt;enshittification of the web&lt;/a&gt; forces me to revive my blog.&lt;/p&gt;
 &lt;p&gt;I’ve been getting more and more uncomfortable giving my data to big corporations and not owning it. Not that I post much, because I don’t. But it bothers me still.&lt;/p&gt;
 &lt;p&gt;I like the idea of personal blogs and I figured this is something I should try again. I’ve been following some nice personal blogs and microblogs like &lt;a href=&quot;https://chriscoyier.net&quot;&gt;Chris Coyier&lt;/a&gt;, &lt;a href=&quot;http://aegir.org/&quot;&gt;Aegir&lt;/a&gt;, &lt;a href=&quot;https://micro.popagandhi.com&quot;&gt;Adrianna Tan&lt;/a&gt;, &lt;a href=&quot;https://melanie-richards.com&quot;&gt;Melanie Richards&lt;/a&gt;, and others. It was &lt;a href=&quot;https://matthiasott.com/notes&quot;&gt;Matthias Ott&lt;/a&gt;’s new project &lt;a href=&quot;https://buttondown.email/ownyourweb&quot;&gt;Own Your Web&lt;/a&gt; that pushed me towards restarting this site.&lt;/p&gt;

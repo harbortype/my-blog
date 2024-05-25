@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Kerning in PowerPoint</title>
 		<meta name="description" content="Making kerning work in PowerPoint is still a process">
-		<link rel="alternate" href="/eleventy-base-blog/feed/feed.xml" type="application/atom+xml" title="Henrique Beier">
-		<link rel="alternate" href="/eleventy-base-blog/feed/feed.json" type="application/json" title="Henrique Beier">
+		<link rel="alternate" href="/my-blog/feed/feed.xml" type="application/atom+xml" title="Henrique Beier">
+		<link rel="alternate" href="/my-blog/feed/feed.json" type="application/json" title="Henrique Beier">
 		
 		<style>/**
  * prism.js default theme for JavaScript, CSS and HTML
@@ -771,14 +771,14 @@ h2 + .header-anchor {
 
 		<header class="background-accent">
 			<div class="header-content content-width">
-				<a href="/eleventy-base-blog/" class="home-link">Henrique Beier</a>
+				<a href="/my-blog/" class="home-link">Henrique Beier</a>
 				<nav>
 					<h2 class="visually-hidden">Top level navigation menu</h2>
 					<ul class="nav">
-						<li class="nav-item"><a href="/eleventy-base-blog/" id="home-link">Home</a></li>
-						<li class="nav-item"><a href="/eleventy-base-blog/blog/" id="blog-link">Blog</a></li>
-						<li class="nav-item"><a href="/eleventy-base-blog/now/" id="now-link">Now</a></li>
-						<li class="nav-item"><a href="/eleventy-base-blog/search/" id="search-link">Search</a></li>
+						<li class="nav-item"><a href="/my-blog/" id="home-link">Home</a></li>
+						<li class="nav-item"><a href="/my-blog/blog/" id="blog-link">Blog</a></li>
+						<li class="nav-item"><a href="/my-blog/now/" id="now-link">Now</a></li>
+						<li class="nav-item"><a href="/my-blog/search/" id="search-link">Search</a></li>
 					</ul>
 				</nav>
 
@@ -799,8 +799,8 @@ h2 + .header-anchor {
 <ul class="post-metadata">
 	<li><time datetime="2023-12-14">14 December 2023</time></li>
 		<ul class="tags-list">
-		<li><a href="/eleventy-base-blog/tags/font-engineering/" class="post-tag">font engineering</a></li>
-		<li><a href="/eleventy-base-blog/tags/python/" class="post-tag">python</a></li>
+		<li><a href="/my-blog/tags/font-engineering/" class="post-tag">font engineering</a></li>
+		<li><a href="/my-blog/tags/python/" class="post-tag">python</a></li>
 		</ul>
 </ul>
 
@@ -824,23 +824,23 @@ kern_font = TTFont()
 kern_font.importXML(kern_file)
 ttf_font["kern"] = kern_font["kern"]
 ttf_font.save(ttf_file)</code></pre>
-<figure class="screenshot" style="max-width: min(960px, var(--content-width)););"><picture><source type="image/webp" srcset="/eleventy-base-blog/img/AkKQ9PF8UG-960.webp 960w, /eleventy-base-blog/img/AkKQ9PF8UG-1920.webp 1920w" sizes="100vw"><source type="image/jpeg" srcset="/eleventy-base-blog/img/AkKQ9PF8UG-960.jpeg 960w, /eleventy-base-blog/img/AkKQ9PF8UG-1920.jpeg 1920w" sizes="100vw"><source type="image/png" srcset="/eleventy-base-blog/img/AkKQ9PF8UG-960.png 960w, /eleventy-base-blog/img/AkKQ9PF8UG-1920.png 1920w" sizes="100vw"><img src="/eleventy-base-blog/img/AkKQ9PF8UG-960.jpeg" width="960" height="700" alt="Screenshot of a PowerPoint for Mac window. The slide being editted contains a text box with the word “Type”, which demonstrates that kerning is working because the “y” is slightly tucked under the right side of the “T” horizontal stroke." loading="lazy" decoding="async"></picture></figure>
+<figure class="screenshot" style="max-width: min(960px, var(--content-width)););"><picture><source type="image/webp" srcset="/my-blog/img/AkKQ9PF8UG-960.webp 960w, /my-blog/img/AkKQ9PF8UG-1920.webp 1920w" sizes="100vw"><source type="image/jpeg" srcset="/my-blog/img/AkKQ9PF8UG-960.jpeg 960w, /my-blog/img/AkKQ9PF8UG-1920.jpeg 1920w" sizes="100vw"><source type="image/png" srcset="/my-blog/img/AkKQ9PF8UG-960.png 960w, /my-blog/img/AkKQ9PF8UG-1920.png 1920w" sizes="100vw"><img src="/my-blog/img/AkKQ9PF8UG-960.jpeg" width="960" height="700" alt="Screenshot of a PowerPoint for Mac window. The slide being editted contains a text box with the word “Type”, which demonstrates that kerning is working because the “y” is slightly tucked under the right side of the “T” horizontal stroke." loading="lazy" decoding="async"></picture></figure>
 <p>I have tested this with a font that has stylistic sets (unencoded glyphs) which have kerning values. Surprisingly, the kerning of those glyphs works in Word and does not affect the kerning in PowerPoint. This was tested to be working on:</p>
 <ul>
 <li>version 2309 of Word and PowerPoint 365</li>
 <li>version 16.78 of Word and PowerPoint for Mac</li>
 </ul>
 
-<ul class="links-nextprev"><li>Previous: <a href="/eleventy-base-blog/blog/month-in-review-2023-10/">Month in review: October 2023</a></li><li>Next: <a href="/eleventy-base-blog/blog/2024-03-28-auxiliary/">Type Cooker: auxiliary</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/my-blog/blog/month-in-review-2023-10/">Month in review: October 2023</a></li><li>Next: <a href="/my-blog/blog/2024-03-28-auxiliary/">Type Cooker: auxiliary</a></li>
 </ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- Current page: /eleventy-base-blog/blog/kerning-in-powerpoint/ -->
+		<!-- Current page: /my-blog/blog/kerning-in-powerpoint/ -->
 
-		<script src="/eleventy-base-blog/js/scripts.js"></script>
+		<script src="/my-blog/js/scripts.js"></script>
 
 	</body>
 </html>
