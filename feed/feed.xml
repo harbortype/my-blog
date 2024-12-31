@@ -4,12 +4,56 @@
 	<subtitle>My own personal web.</subtitle>
 	<link href="https://henriquebeier.com/feed/feed.xml" rel="self"/>
 	<link href="https://henriquebeier.com/"/>
-	<updated>2024-05-23T00:00:00Z</updated>
+	<updated>2024-12-31T00:00:00Z</updated>
 	<id>https://henriquebeier.com/</id>
 	<author>
 		<name>Henrique Beier</name>
 		<email>blog@henriquebeier.com</email>
 	</author>
+	
+	<entry>
+		<title>My default apps for 2024</title>
+		<link href="https://henriquebeier.com/blog/my-default-apps-for-2024/"/>
+		<updated>2024-12-31T00:00:00Z</updated>
+		<id>https://henriquebeier.com/blog/my-default-apps-for-2024/</id>
+		<content type="html">&lt;p&gt;I first saw this kind of post in &lt;a href=&quot;https://chriscoyier.net/2023/11/25/default-apps-2023/&quot;&gt;Chris Coyier’s blog&lt;/a&gt; last year. Recently, I saw it popping up in other blogs (&lt;a href=&quot;https://notes.jeddacp.com/my-default-apps-for-2024/&quot;&gt;JCProbably&lt;/a&gt; and &lt;a href=&quot;https://kevquirk.com/blog/my-default-apps-at-the-end-of-2024&quot;&gt;Kev Quirk&lt;/a&gt; come to mind), so I decided to give this a try.&lt;/p&gt;
+&lt;p&gt;📨 &lt;strong&gt;Mail Service:&lt;/strong&gt; Fastmail and Gmail (work) &lt;br&gt;
+📮 &lt;strong&gt;Mail Client:&lt;/strong&gt; Fastmail via Safari web app, Gmail in Apple Mail &lt;br&gt;
+📁 &lt;strong&gt;File Manager:&lt;/strong&gt; &lt;a href=&quot;https://binarynights.com&quot;&gt;ForkLift 4&lt;/a&gt; &lt;br&gt;
+📝 &lt;strong&gt;Notes:&lt;/strong&gt; &lt;a href=&quot;http://obsidian.md&quot;&gt;Obsidian&lt;/a&gt;, &lt;a href=&quot;https://ia.net/writer&quot;&gt;iA Writer&lt;/a&gt; and &lt;a href=&quot;https://www.raycast.com&quot;&gt;Raycast&lt;/a&gt; Notes &lt;br&gt;
+✅ &lt;strong&gt;To-Do:&lt;/strong&gt; &lt;a href=&quot;https://culturedcode.com/things/&quot;&gt;Things 3&lt;/a&gt; &lt;br&gt;
+📆 &lt;strong&gt;Calendar:&lt;/strong&gt; Apple Calendar &lt;br&gt;
+🙍🏻‍♂️ &lt;strong&gt;Contacts:&lt;/strong&gt; Apple Contacts &lt;br&gt;
+🗞️ &lt;strong&gt;RSS:&lt;/strong&gt; &lt;a href=&quot;https://netnewswire.com&quot;&gt;NetNewsWire&lt;/a&gt; &lt;br&gt;
+⌨️ &lt;strong&gt;Launcher:&lt;/strong&gt; switched from &lt;a href=&quot;https://www.obdev.at/products/launchbar&quot;&gt;Launchbar&lt;/a&gt; to &lt;a href=&quot;https://www.raycast.com&quot;&gt;Raycast&lt;/a&gt; for everything except files and folders, for which I now use &lt;a href=&quot;https://www.stclairsoft.com/DefaultFolderX/&quot;&gt;Default Folder X&lt;/a&gt;  &lt;br&gt;
+☁️ &lt;strong&gt;Cloud storage:&lt;/strong&gt; Dropbox &amp;amp; iCloud &lt;br&gt;
+🛟 &lt;strong&gt;Backups:&lt;/strong&gt; &lt;a href=&quot;https://www.arqbackup.com&quot;&gt;Arq&lt;/a&gt; to Dropbox &lt;br&gt;
+🌅 &lt;strong&gt;Photo library:&lt;/strong&gt; iCloud &lt;br&gt;
+🎨 &lt;strong&gt;Photo editing:&lt;/strong&gt; Apple Photos, Lightroom for iOS and &lt;a href=&quot;https://apps.apple.com/app/processing-aesthetic-photos/id6505000108&quot;&gt;processing&lt;/a&gt; &lt;br&gt;
+📸 &lt;strong&gt;Screenshots:&lt;/strong&gt; &lt;a href=&quot;https://cleanshot.com&quot;&gt;CleanShot X&lt;/a&gt; and &lt;a href=&quot;http://gohustl.co&quot;&gt;Hustl&lt;/a&gt; for timelapses &lt;br&gt;
+🌎 &lt;strong&gt;Browser:&lt;/strong&gt; Safari &lt;br&gt;
+💬 &lt;strong&gt;Chat:&lt;/strong&gt; WhatsApp &lt;br&gt;
+🔖 &lt;strong&gt;Bookmarks:&lt;/strong&gt; Safari &lt;br&gt;
+📑 &lt;strong&gt;Read Later:&lt;/strong&gt; open tabs in Safari, unfortunately &lt;br&gt;
+📚 &lt;strong&gt;Reading:&lt;/strong&gt; Kindle Paperwhite (7th gen) and Kindle apps on mobile devices &lt;br&gt;
+📜 &lt;strong&gt;Word Processing:&lt;/strong&gt; &lt;a href=&quot;https://ia.net/writer&quot;&gt;iA Writer&lt;/a&gt; and Apple Pages &lt;br&gt;
+📈 &lt;strong&gt;Spreadsheets:&lt;/strong&gt; Apple Numbers &lt;br&gt;
+📊 &lt;strong&gt;Presentations:&lt;/strong&gt; Adobe InDesign &lt;br&gt;
+🛒 &lt;strong&gt;Shopping Lists:&lt;/strong&gt; &lt;a href=&quot;https://apps.apple.com/app/grocery-smart-shopping-list/id1195676848&quot;&gt;Grocery&lt;/a&gt; &lt;br&gt;
+💰 &lt;strong&gt;Personal Finance:&lt;/strong&gt; &lt;a href=&quot;http://ynab.com&quot;&gt;YNAB&lt;/a&gt; &lt;br&gt;
+🎵 &lt;strong&gt;Music:&lt;/strong&gt; switched from Deezer to Apple Music &lt;br&gt;
+🎙️ &lt;strong&gt;Podcasts:&lt;/strong&gt; &lt;a href=&quot;https://pocketcasts.com&quot;&gt;Pocket Casts&lt;/a&gt; &lt;br&gt;
+🔎 &lt;strong&gt;Search:&lt;/strong&gt; Kagi and DuckDuckGo &lt;br&gt;
+🧮 &lt;strong&gt;Code Editor:&lt;/strong&gt; switched from &lt;a href=&quot;https://www.sublimetext.com&quot;&gt;Sublime Text&lt;/a&gt; to &lt;a href=&quot;https://zed.dev&quot;&gt;Zed&lt;/a&gt; for most things &lt;br&gt;
+📔 &lt;strong&gt;Git Client:&lt;/strong&gt; &lt;a href=&quot;https://fork.dev&quot;&gt;Fork&lt;/a&gt; &lt;br&gt;
+⏱️ &lt;strong&gt;Timesheets:&lt;/strong&gt; &lt;a href=&quot;https://tim.neat.software&quot;&gt;Tim&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And now some apps related to my practice.&lt;/p&gt;
+&lt;p&gt;🖌️ &lt;strong&gt;Designing fonts:&lt;/strong&gt; &lt;a href=&quot;http://glyphsapp.com&quot;&gt;Glyphs&lt;/a&gt; &lt;br&gt;
+📏 &lt;strong&gt;Kerning:&lt;/strong&gt; &lt;a href=&quot;http://kern-on.com&quot;&gt;Kern On&lt;/a&gt; &lt;br&gt;
+🔬 &lt;strong&gt;Inspecting:&lt;/strong&gt; &lt;a href=&quot;https://www.fontmaster.nl/otmaster.html&quot;&gt;DTL OTMaster 8.9&lt;/a&gt; &lt;br&gt;
+💯 &lt;strong&gt;Testing:&lt;/strong&gt; &lt;a href=&quot;https://github.com/fonttools/fontbakery&quot;&gt;Font Bakery&lt;/a&gt;, &lt;a href=&quot;https://fontgoggles.org/&quot;&gt;FontGoggles&lt;/a&gt;, Microsoft Office for Windows and Mac, Adobe CC, TextEdit, etc.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Can AI interpret sarcasm?</title>

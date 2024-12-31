@@ -3,12 +3,196 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Henrique Beier</title>
-		<meta name="description" content="My own personal web.">
+		<title>My default apps for 2024</title>
+		<meta name="description" content="Documenting the apps I use at the end of 2024">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Henrique Beier">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Henrique Beier">
 		
-		<style>.postlist { counter-reset: start-from 9 }
+		<style>/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #9a6e3a;
+	/* This background color was intended by the author of this theme. */
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 @font-face {
   font-family: Seiva;
@@ -592,7 +776,7 @@ h2 + .header-anchor {
 					<h2 class="visually-hidden">Top level navigation menu</h2>
 					<ul class="nav">
 						<li class="nav-item"><a href="/" id="home-link">Home</a></li>
-						<li class="nav-item"><a href="/blog/" id="blog-link" aria-current="page">Blog</a></li>
+						<li class="nav-item"><a href="/blog/" id="blog-link">Blog</a></li>
 						<li class="nav-item"><a href="/now/" id="now-link">Now</a></li>
 						<li class="nav-item"><a href="/search/" id="search-link">Search</a></li>
 					</ul>
@@ -610,61 +794,60 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Blog</h1>
+<h1>My default apps for 2024</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2024-12-31">31 December 2024</time></li>
+		<ul class="tags-list">
+		<li><a href="/tags/software/" class="post-tag">software</a></li>
+		</ul>
+</ul>
 
+<p>I first saw this kind of post in <a href="https://chriscoyier.net/2023/11/25/default-apps-2023/">Chris Coyier’s blog</a> last year. Recently, I saw it popping up in other blogs (<a href="https://notes.jeddacp.com/my-default-apps-for-2024/">JCProbably</a> and <a href="https://kevquirk.com/blog/my-default-apps-at-the-end-of-2024">Kev Quirk</a> come to mind), so I decided to give this a try.</p>
+<p>📨 <strong>Mail Service:</strong> Fastmail and Gmail (work) <br>
+📮 <strong>Mail Client:</strong> Fastmail via Safari web app, Gmail in Apple Mail <br>
+📁 <strong>File Manager:</strong> <a href="https://binarynights.com">ForkLift 4</a> <br>
+📝 <strong>Notes:</strong> <a href="http://obsidian.md">Obsidian</a>, <a href="https://ia.net/writer">iA Writer</a> and <a href="https://www.raycast.com">Raycast</a> Notes <br>
+✅ <strong>To-Do:</strong> <a href="https://culturedcode.com/things/">Things 3</a> <br>
+📆 <strong>Calendar:</strong> Apple Calendar <br>
+🙍🏻‍♂️ <strong>Contacts:</strong> Apple Contacts <br>
+🗞️ <strong>RSS:</strong> <a href="https://netnewswire.com">NetNewsWire</a> <br>
+⌨️ <strong>Launcher:</strong> switched from <a href="https://www.obdev.at/products/launchbar">Launchbar</a> to <a href="https://www.raycast.com">Raycast</a> for everything except files and folders, for which I now use <a href="https://www.stclairsoft.com/DefaultFolderX/">Default Folder X</a>  <br>
+☁️ <strong>Cloud storage:</strong> Dropbox &amp; iCloud <br>
+🛟 <strong>Backups:</strong> <a href="https://www.arqbackup.com">Arq</a> to Dropbox <br>
+🌅 <strong>Photo library:</strong> iCloud <br>
+🎨 <strong>Photo editing:</strong> Apple Photos, Lightroom for iOS and <a href="https://apps.apple.com/app/processing-aesthetic-photos/id6505000108">processing</a> <br>
+📸 <strong>Screenshots:</strong> <a href="https://cleanshot.com">CleanShot X</a> and <a href="http://gohustl.co">Hustl</a> for timelapses <br>
+🌎 <strong>Browser:</strong> Safari <br>
+💬 <strong>Chat:</strong> WhatsApp <br>
+🔖 <strong>Bookmarks:</strong> Safari <br>
+📑 <strong>Read Later:</strong> open tabs in Safari, unfortunately <br>
+📚 <strong>Reading:</strong> Kindle Paperwhite (7th gen) and Kindle apps on mobile devices <br>
+📜 <strong>Word Processing:</strong> <a href="https://ia.net/writer">iA Writer</a> and Apple Pages <br>
+📈 <strong>Spreadsheets:</strong> Apple Numbers <br>
+📊 <strong>Presentations:</strong> Adobe InDesign <br>
+🛒 <strong>Shopping Lists:</strong> <a href="https://apps.apple.com/app/grocery-smart-shopping-list/id1195676848">Grocery</a> <br>
+💰 <strong>Personal Finance:</strong> <a href="http://ynab.com">YNAB</a> <br>
+🎵 <strong>Music:</strong> switched from Deezer to Apple Music <br>
+🎙️ <strong>Podcasts:</strong> <a href="https://pocketcasts.com">Pocket Casts</a> <br>
+🔎 <strong>Search:</strong> Kagi and DuckDuckGo <br>
+🧮 <strong>Code Editor:</strong> switched from <a href="https://www.sublimetext.com">Sublime Text</a> to <a href="https://zed.dev">Zed</a> for most things <br>
+📔 <strong>Git Client:</strong> <a href="https://fork.dev">Fork</a> <br>
+⏱️ <strong>Timesheets:</strong> <a href="https://tim.neat.software">Tim</a></p>
+<p>And now some apps related to my practice.</p>
+<p>🖌️ <strong>Designing fonts:</strong> <a href="http://glyphsapp.com">Glyphs</a> <br>
+📏 <strong>Kerning:</strong> <a href="http://kern-on.com">Kern On</a> <br>
+🔬 <strong>Inspecting:</strong> <a href="https://www.fontmaster.nl/otmaster.html">DTL OTMaster 8.9</a> <br>
+💯 <strong>Testing:</strong> <a href="https://github.com/fonttools/fontbakery">Font Bakery</a>, <a href="https://fontgoggles.org/">FontGoggles</a>, Microsoft Office for Windows and Mac, Adobe CC, TextEdit, etc.</p>
 
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/blog/my-default-apps-for-2024/" class="postlist-link">My default apps for 2024</a>
-		<time class="postlist-date" datetime="2024-12-31">December 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/can-ai-interpret-sarcasm/" class="postlist-link">Can AI interpret sarcasm?</a>
-		<time class="postlist-date" datetime="2024-05-23">May 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/bebop/" class="postlist-link">Bebop</a>
-		<time class="postlist-date" datetime="2024-05-20">May 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/2024-03-28-auxiliary/" class="postlist-link">Type Cooker: auxiliary</a>
-		<time class="postlist-date" datetime="2024-03-28">March 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/kerning-in-powerpoint/" class="postlist-link">Kerning in PowerPoint</a>
-		<time class="postlist-date" datetime="2023-12-14">December 2023</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/month-in-review-2023-10/" class="postlist-link">Month in review: October 2023</a>
-		<time class="postlist-date" datetime="2023-11-02">November 2023</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/i-also-love-typography/" class="postlist-link">I also ❤️ Typography</a>
-		<time class="postlist-date" datetime="2023-10-26">October 2023</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/hello-world-once-again/" class="postlist-link">Hello world, once again</a>
-		<time class="postlist-date" datetime="2023-10-23">October 2023</time>
-	</li>
-
-</ol>
-
-
+<ul class="links-nextprev"><li>Previous: <a href="/blog/can-ai-interpret-sarcasm/">Can AI interpret sarcasm?</a></li>
+</ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- Current page: /blog/ -->
+		<!-- Current page: /blog/my-default-apps-for-2024/ -->
 
 		<script src="/js/scripts.js"></script>
 
