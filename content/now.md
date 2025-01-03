@@ -6,10 +6,10 @@ eleventyNavigation:
 ---
 <h1>What I’m doing now</h1>
 
-I’m closing the purchase of our new apartment, so I’ve been anxious for this move. It will take a couple of months, though.
+I’m trying to take a picture every day and upload it to [Retro](https://retro.app). I’m also considering logging the number of watermelons we eat each summer (we are at 5 in less than 40 days).
 
-I am adding lighter weights for my [Dona typeface](https://www.harbortype.com/fonts/dona/). Also, I started working on a display serif typeface for a change (in [FontLab](https://www.fontlab.com) for no good reason). It’s way too early to share anything just yet, but it’s nice not to be working on yet another sans.
+Font-wise, I decided to completely rework my [Dona typeface](https://www.harbortype.com/fonts/dona/) and launch it with another name.
 
-As a personal project, I am experimenting on tracking the books I am reading, want to or have read in [Obsidian](https://obsidian.md).
+We’ll be living in our new apartment for a year next month.
 
-This **Now** page was inspired by the movement started by [Derek Sivers](https://nownownow.com/about). It&nbsp;was last updated on October 23rd, 2023.
+This **Now** page was inspired by the movement started by [Derek Sivers](https://nownownow.com/about). It&nbsp;was last updated on January 3rd, 2025.
