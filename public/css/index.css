@@ -574,3 +574,45 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
 	font-size: 1.5em;
 }
+
+/* Records */
+.records {
+	width: 100%;
+	max-width: var(--content-width);
+	padding: 0;
+	margin-block: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+@media (min-width: 600px) {
+	.records {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (min-width: 1080px) {
+	.records {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+.record {
+	font-size: 0.888em;
+	line-height: 1.5;
+}
+.records li {
+	list-style: none;
+	margin-left: 0;
+}
+.record-cover {
+	margin-block-start: 0;
+	margin-block-end: 0.5rem;
+}
+.record-title {
+	font-weight: bold;
+}
+
+.embed {
+	width: var(--text-width);
+	margin-inline: auto;
+	display: block;
+}
