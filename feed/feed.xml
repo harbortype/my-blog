@@ -4,12 +4,75 @@
 	<subtitle>My own personal web.</subtitle>
 	<link href="https://henriquebeier.com/feed/feed.xml" rel="self"/>
 	<link href="https://henriquebeier.com/"/>
-	<updated>2024-12-31T00:00:00Z</updated>
+	<updated>2025-01-03T00:00:00Z</updated>
 	<id>https://henriquebeier.com/</id>
 	<author>
 		<name>Henrique Beier</name>
 		<email>blog@henriquebeier.com</email>
 	</author>
+	
+	<entry>
+		<title>Favorite music of 2024</title>
+		<link href="https://henriquebeier.com/blog/favorite-music-of-2024/"/>
+		<updated>2025-01-03T00:00:00Z</updated>
+		<id>https://henriquebeier.com/blog/favorite-music-of-2024/</id>
+		<content type="html">&lt;p&gt;Starting with the albums, these are the ones I liked the most during last year, according to the Deezer, Apple Music and myself. By no means this list and the next one are restricted to music &lt;em&gt;released&lt;/em&gt; this year, as I’m not always up to speed on the new stuff (cue album #6 and #7 released in 2004 and 2005, respectively).&lt;/p&gt;
+&lt;ol class=&quot;records&quot;&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1733934186&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/qEHGJtWm0B-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/qEHGJtWm0B-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/qEHGJtWm0B-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Santa Cruz by Pedro the Lion.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1733934186&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Santa Cruz&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Pedro the Lion&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1727089332&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/cirjWwLT6L-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/cirjWwLT6L-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/cirjWwLT6L-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Peregrino by Carlos Ares.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1727089332&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Peregrino&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Carlos Ares&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1760821166&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/90frGsv0sw-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/90frGsv0sw-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/90frGsv0sw-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album “NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD” by Godspeed You! Black Emperor.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1760821166&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;“NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD”&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Godspeed You! Black Emperor&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1716063932&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/n5BM4ttsuK-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/n5BM4ttsuK-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/n5BM4ttsuK-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Prelude to Ecstasy by The Last Dinner Party.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1716063932&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Prelude to Ecstasy&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;The Last Dinner Party&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1727698280&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/aHcx8tvV4e-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/aHcx8tvV4e-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/aHcx8tvV4e-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Vou Ficar Neste Quadrado by Ana Lua Caiano.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1727698280&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Vou Ficar Neste Quadrado&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Ana Lua Caiano&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/119910299&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/5qBaJ3pc2i-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/5qBaJ3pc2i-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/5qBaJ3pc2i-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Bluffer’s Guide to the Flight Deck by Flotation Toy Warning.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/119910299&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Bluffer’s Guide to the Flight Deck&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Flotation Toy Warning&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1523085297&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/QhbczjEfpv-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/QhbczjEfpv-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/QhbczjEfpv-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album The Milk of Human Kindness by Caribou.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1523085297&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;The Milk of Human Kindness&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Caribou&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1754400339&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/5a-u4IwCLO-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/5a-u4IwCLO-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/5a-u4IwCLO-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Everybody Needs a Hero by Orla Gartland.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1754400339&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Everybody Needs a Hero&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Orla Gartland&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Towards the end of 2024 I made the switch from Deezer to Apple Music. I had Last.fm set up in Deezer, but forgot to look for a way to scrobble my plays on the new service. For this reason, I don’t think looking at scrobble count would be fair for this list, so I curated a shorter list of songs I favorited in either of these platforms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Billie Eilish – &lt;a href=&quot;https://song.link/i/1564531181&quot;&gt;Therefore I Am&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brijean – &lt;a href=&quot;https://song.link/i/1735967299&quot;&gt;Workin’ On It&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;TV Girl – &lt;a href=&quot;https://song.link/i/1623929722&quot;&gt;Pantyhose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Angélica Garcia – &lt;a href=&quot;https://song.link/i/1715706783&quot;&gt;Gemini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;WILLOW – &lt;a href=&quot;https://song.link/i/1737442550&quot;&gt;run!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Noga Erez – &lt;a href=&quot;https://song.link/i/1750120282&quot;&gt;DUMB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Ana Lua Caiano – &lt;a href=&quot;https://song.link/i/1727698402&quot;&gt;Cansada&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Melenas – &lt;a href=&quot;https://song.link/i/1678826139&quot;&gt;Bang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Alih Jey – &lt;a href=&quot;https://song.link/i/1740132785&quot;&gt;Bang Bang (Mi Baby Me Mató)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kali Uchis – &lt;a href=&quot;https://song.link/i/1710860487&quot;&gt;Dáme Beso // Muévete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Life Without Buildings – &lt;a href=&quot;https://song.link/i/889981676&quot;&gt;The Leanover&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Wilco – &lt;a href=&quot;https://song.link/i/1749109019&quot;&gt;Hot Sun&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mother Mother – &lt;a href=&quot;https://song.link/i/1107130808&quot;&gt;Dirty Town&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lonnie Holley – &lt;a href=&quot;https://song.link/i/1517727023&quot;&gt;Do T Rocker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pedro the Lion – &lt;a href=&quot;https://song.link/i/1733934453&quot;&gt;Modesto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Daisy the Great – &lt;a href=&quot;https://song.link/i/1766351620&quot;&gt;All The People&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Caribou – &lt;a href=&quot;https://song.link/i/1487724480&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Antynomy – &lt;a href=&quot;https://song.link/i/1762933487&quot;&gt;Pensée Derobée&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Modest Mouse – &lt;a href=&quot;https://song.link/i/1735950214&quot;&gt;Float On (Dan the Automator Remix)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Helene Vogelsinger – &lt;a href=&quot;https://song.link/i/1682653909&quot;&gt;Reminiscence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Godspeed You! Black Emperor – &lt;a href=&quot;https://song.link/i/1760821181&quot;&gt;BABYS IN A THUNDERCLOUD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Grandaddy – &lt;a href=&quot;https://song.link/i/1440937853&quot;&gt;He’s Simple, He’s Dumb, He’s the Pilot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Caribou – &lt;a href=&quot;https://song.link/i/1523085298&quot;&gt;Yeti&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pocket Vinyl – &lt;a href=&quot;https://song.link/i/1754750899&quot;&gt;Chair From Your Bones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Girl and Girl – &lt;a href=&quot;https://song.link/i/1769439390&quot;&gt;The Cow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;October Country – &lt;a href=&quot;https://song.link/i/1724092448&quot;&gt;My Girlfriend Is a Witch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Mountain Goats – &lt;a href=&quot;https://song.link/i/310998183&quot;&gt;No Children&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carlos Ares – &lt;a href=&quot;https://song.link/i/1727089860&quot;&gt;Cigarra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cara de Espelho – &lt;a href=&quot;https://song.link/i/1726590839&quot;&gt;Fadistão&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hinds – &lt;a href=&quot;https://song.link/i/1766374877&quot;&gt;En Forma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Orla Gartland – &lt;a href=&quot;https://song.link/i/1754400535&quot;&gt;Little Chaos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Girl and Girl – &lt;a href=&quot;https://song.link/i/1728330447&quot;&gt;Call A Doctor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Last Dinner Party – &lt;a href=&quot;https://song.link/i/1716065012&quot;&gt;Nothing Matters&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fontaines D.C. – &lt;a href=&quot;https://song.link/i/1737990264&quot;&gt;Starburster&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Carlos Ares – &lt;a href=&quot;https://song.link/i/1771610290&quot;&gt;Importante&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Caribou – &lt;a href=&quot;https://song.link/i/1523085305&quot;&gt;Brahminy Kite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Johnny Hooker – &lt;a href=&quot;https://song.link/i/1614136330&quot;&gt;Caetano Veloso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Caetano Veloso – &lt;a href=&quot;https://song.link/i/1443800158&quot;&gt;Rocks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Francis Rosa – &lt;a href=&quot;https://song.link/i/1770166951&quot;&gt;Hoje Tem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is the playlist in Apple Music for your convenience.&lt;/p&gt;
+&lt;iframe class=&quot;embed&quot; allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=&quot;0&quot; height=&quot;450&quot; style=&quot;overflow:hidden;background:transparent;&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.music.apple.com/br/playlist/henrique-beiers-favorites-of-2024/pl.u-JJZCDRJeXmz?l=en&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>My default apps for 2024</title>
