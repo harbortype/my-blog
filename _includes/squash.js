@@ -37,7 +37,5 @@ module.exports = function (text) {
 	//remove other control characters
 	// result = result.replace(/\ /g, "");
 
-	console.log(result);
-
 	return result;
 };
