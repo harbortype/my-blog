@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: "Henrique Beier",
 	url: "https://henriquebeier.com/",
 	language: "en",
@@ -6,6 +6,6 @@ module.exports = {
 	author: {
 		name: "Henrique Beier",
 		email: "blog@henriquebeier.com",
-		url: "https://henriquebeier.com/about-me/"
-	}
-}
+		url: "https://henriquebeier.com/about-me/",
+	},
+};

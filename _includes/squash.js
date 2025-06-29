@@ -5,7 +5,7 @@
  * @param {String} text
  */
 
-module.exports = function (text) {
+export default function (text) {
 	var content = new String(text);
 
 	// all lower case, please
@@ -38,4 +38,4 @@ module.exports = function (text) {
 	// result = result.replace(/\ /g, "");
 
 	return result;
-};
+}
