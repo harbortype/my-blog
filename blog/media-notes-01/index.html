@@ -3,13 +3,197 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “music”</title>
-		<meta name="description" content="My own personal web.">
+		<title>Media Notes #01</title>
+		<meta name="description" content="A roundup of TV shows, movies, books, and music I consumed in the first half of 2025.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Henrique Beier">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Henrique Beier">
 		<meta name="generator" content="Eleventy v3.1.2">
 		
-		<style>.postlist { counter-reset: start-from 3 }
+		<style>/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #9a6e3a;
+	/* This background color was intended by the author of this theme. */
+	background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
 * { box-sizing: border-box; }
 @font-face {
 	font-family: Seiva;
@@ -658,33 +842,57 @@ h2 + .header-anchor {
 
 		<main id="skip">
 			
-<h1>Tagged “music”</h1>
+<h1>Media Notes #01</h1>
 
+<ul class="post-metadata">
+	<li><time datetime="2025-06-29">29 June 2025</time></li>
+		<ul class="tags-list">
+		<li><a href="/tags/media-notes/" class="post-tag">media notes</a></li>
+		<li><a href="/tags/tv-shows/" class="post-tag">tv shows</a></li>
+		<li><a href="/tags/movies/" class="post-tag">movies</a></li>
+		<li><a href="/tags/books/" class="post-tag">books</a></li>
+		<li><a href="/tags/music/" class="post-tag">music</a></li>
+		</ul>
+</ul>
 
+<p>This is a list of TV shows, movies, books and interesting music I consumed recently. The idea here is not to document every single thing in chronological order, but to list some of the things I watched, read, and listened to that resonated with me.</p>
+<h2 id="watched" tabindex="-1">Watched <a class="header-anchor" href="#watched">#</a></h2>
+<h3 id="pablo-and-luisao-season-1" tabindex="-1"><a href="https://www.themoviedb.org/tv/226254-pablo-e-luis-o">Pablo &amp; Luisão</a> season 1 <a class="header-anchor" href="#pablo-and-luisao-season-1">#</a></h3>
+<p>This is the Brazilian equivalent of Everybody Hates Chris: a biographical series but even more absurd and hilarious. Paulo Vieira shows his poor upbringing with a focus on the relationship and mishaps between his father and his father’s best friend. The kinds of stories that nobody believes to be true.</p>
+<h3 id="the-rehearsal-season-2" tabindex="-1"><a href="https://www.themoviedb.org/tv/204284-the-rehearsal">The Rehearsal</a> season 2 <a class="header-anchor" href="#the-rehearsal-season-2">#</a></h3>
+<p>As in Nathan for You, this show blurs the lines between what’s real and what’s not. After finishing it, I naively searched for more information about the last episode, but I soon realized there’s no point in doing that.</p>
+<h3 id="taskmaster-australia-season-3" tabindex="-1"><a href="https://www.themoviedb.org/tv/219341-taskmaster-au">Taskmaster Australia</a> season 3 <a class="header-anchor" href="#taskmaster-australia-season-3">#</a></h3>
+<p>Watching Taskmaster during dinner is our Friday night routine. This was an atypical season as we didn’t hate any of the contestants.</p>
+<h3 id="90-day-fiance-uk-seasons-1-3" tabindex="-1"><a href="https://www.themoviedb.org/tv/205154-90-day-fianc-uk">90-day Fiancé UK</a> seasons 1-3 <a class="header-anchor" href="#90-day-fiance-uk-seasons-1-3">#</a></h3>
+<p>I was never a big reality TV fan, but that changed last year. It’s nice to analyze these absurd situations and reflect on who’s at fault in each one. Apart from that, no thinking is really necessary, and I can just unwind. I know they are scripted and edited to inflate everything, but I just stopped caring.</p>
+<h3 id="lol-brasil-season-4" tabindex="-1"><a href="https://www.themoviedb.org/tv/137453-lol-se-rir-ja-era">LOL Brasil</a> season 4 <a class="header-anchor" href="#lol-brasil-season-4">#</a></h3>
+<p>This is the season with Porta dos Fundos. I had some good laughs, but overall I found the crass jokes were too frequent.</p>
+<h3 id="daaaaaali" tabindex="-1"><a href="https://www.themoviedb.org/movie/1045770-daaaaaali">Daaaaaalí!</a> <a class="header-anchor" href="#daaaaaali">#</a></h3>
+<p>The only movie on the list, unfortunately. The trailer gave me the impression of a comedy, but all the good jokes fit into those 2 minutes. It was okay, or maybe it was me who didn’t get it.</p>
+<h2 id="read" tabindex="-1">Read <a class="header-anchor" href="#read">#</a></h2>
+<h3 id="a-little-life-by-hanya-yanagihara" tabindex="-1"><a href="https://www.goodreads.com/book/show/22822858-a-little-life">A Little Life</a> by Hanya Yanagihara <a class="header-anchor" href="#a-little-life-by-hanya-yanagihara">#</a></h3>
+<p>This was a hard one that took me almost 5 months to finish. I tend not to sympathize with the struggles of the super rich (and probably never will), but Jude’s suffering will stay with me. Something that never crossed my mind before, but makes complete sense, is that the legal system exists to enforce laws as they’re written, not to deliver real justice—and sometimes the laws are not fair.</p>
+<h3 id="breakfast-of-champions-by-kurt-vonnegut" tabindex="-1"><a href="https://www.goodreads.com/book/show/4980.Breakfast_of_Champions">Breakfast of Champions</a> by Kurt Vonnegut <a class="header-anchor" href="#breakfast-of-champions-by-kurt-vonnegut">#</a></h3>
+<p>I remember I liked Cat’s Craddle when I read it 20 years ago, but this one didn’t resonate with me. Maybe it wasn’t a good idea to read this right after A Little Life.</p>
+<h3 id="yoga-by-emmanuel-carrere" tabindex="-1"><a href="https://www.goodreads.com/book/show/54869368-yoga">Yoga</a> by Emmanuel Carrère <a class="header-anchor" href="#yoga-by-emmanuel-carrere">#</a></h3>
+<p>A book about yoga, meditation, depression, terrorism, and a humanitarian crisis. This was not what I expected but in a good way.</p>
+<h2 id="listened-to" tabindex="-1">Listened to <a class="header-anchor" href="#listened-to">#</a></h2>
+<h3 id="alan-sparhawk-with-trampled-by-turtles" tabindex="-1"><a href="https://album.link/i/1783079244">Alan Sparhawk with Trampled by Turtles</a> <a class="header-anchor" href="#alan-sparhawk-with-trampled-by-turtles">#</a></h3>
+<p>This album is brutal. The grief of losing his lifelong partner, Mimi Parker, can be felt throughout. Screaming Song filled my eyes with tears more than once.</p>
+<h3 id="the-scholars-by-car-seat-headrest" tabindex="-1"><a href="https://album.link/i/1796212327">The Scholars</a> by Car Seat Headrest <a class="header-anchor" href="#the-scholars-by-car-seat-headrest">#</a></h3>
+<p>I don’t know how I haven’t heard about Car Seat Headrest before. I went back to other albums and I really liked the experimentation. This new album is a rock opera that takes place in a fictional college named Parnassus University. The songs Gethsemane and Planet Desperation are my favorites, but being a rock opera, they are 11 and 19 minutes long.</p>
+<h3 id="ni-ishanai-floresta-futuro-by-kayatibu" tabindex="-1"><a href="https://album.link/i/1617149738">Ni Ishanai ~ Floresta Futuro</a> by Kayatibu <a class="header-anchor" href="#ni-ishanai-floresta-futuro-by-kayatibu">#</a></h3>
+<p>I’ve been trying to listen to more diverse music: music that is not sung in English and is not Brazilian pop/rock. An <a href="https://www.npr.org/2025/04/23/1246593569/alt-latino-natalia-lafourcade-eladio-carrion">episode of Alt.Latino</a> featured the single <a href="https://song.link/i/1803479339">Nai Basa Masheri</a> by Kayatibu and Yaka Huni Kuin, which led me to Ni Ishanai. This album is unlike anything I’ve heard before. It alternates songs in Portuguese and in their native language, which as far as I can tell is Hantxa Kuin. The songs are mesmerizing and I highly recommend a listen.</p>
+<p>As a side note, not only “world music” is a bad term for this, but the fact that Nai Basa Masheri is classified as “Pop in Spanish” in Apple Music is infuriating.</p>
 
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/blog/media-notes-01/" class="postlist-link">Media Notes #01</a>
-		<time class="postlist-date" datetime="2025-06-29">June 2025</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/blog/favorite-music-of-2024/" class="postlist-link">Favorite music of 2024</a>
-		<time class="postlist-date" datetime="2025-01-03">January 2025</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/tags/">all tags</a>.</p>
-
+<ul class="links-nextprev"><li>Previous: <a href="/blog/favorite-music-of-2024/">Favorite music of 2024</a></li>
+</ul>
 
 		</main>
 
 		<footer></footer>
 
-		<!-- Current page: /tags/music/ -->
+		<!-- Current page: /blog/media-notes-01/ -->
 
 		<script src="/js/scripts.js"></script>
 
