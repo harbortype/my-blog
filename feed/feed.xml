@@ -4,12 +4,71 @@
 	<subtitle>My own personal web.</subtitle>
 	<link href="https://henriquebeier.com/feed/feed.xml" rel="self"/>
 	<link href="https://henriquebeier.com/"/>
-	<updated>2025-06-29T00:00:00Z</updated>
+	<updated>2026-01-12T00:00:00Z</updated>
 	<id>https://henriquebeier.com/</id>
 	<author>
 		<name>Henrique Beier</name>
 		<email>blog@henriquebeier.com</email>
 	</author>
+	
+	<entry>
+		<title>Favorite music of 2025</title>
+		<link href="https://henriquebeier.com/blog/favorite-music-of-2025/"/>
+		<updated>2026-01-12T00:00:00Z</updated>
+		<id>https://henriquebeier.com/blog/favorite-music-of-2025/</id>
+		<content type="html">&lt;p&gt;These are the albums I liked the most in 2025. The list is based on the data of last.fm and Apple Music, as well as my own opinion.&lt;/p&gt;
+&lt;ol class=&quot;records&quot;&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1834186254&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/zhANvB59Qd-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/zhANvB59Qd-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/zhANvB59Qd-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Drive to Goldenhammer by Divorce.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1834186254&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Drive to Goldenhammer&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Divorce&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1788554560&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/6-VQER6Gtt-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/6-VQER6Gtt-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/6-VQER6Gtt-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album the world is still here and so are we by Mclusky.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1788554560&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;the world is still here and so are we&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Mclusky&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1796212327&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/02uP8SiKgx-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/02uP8SiKgx-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/02uP8SiKgx-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album The Scholars by Car Seat Headrest.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1796212327&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;The Scholars&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Car Seat Headrest&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1441207237&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/QQRycddZ78-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/QQRycddZ78-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/QQRycddZ78-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album La Dinastía Scorpio by Él Mató a un Policía Motorizado.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1441207237&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;La Dinastía Scorpio&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Él Mató a un Policía Motorizado&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1783079244&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/p8QWj8kPj--512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/p8QWj8kPj--512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/p8QWj8kPj--512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album With Trampled by Turtles by Alan Sparhawk.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1783079244&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;With Trampled by Turtles&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Alan Sparhawk&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1440937568&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/tPsk0e4cOH-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/tPsk0e4cOH-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/tPsk0e4cOH-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album The Sophtware Slump by Grandaddy.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1440937568&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;The Sophtware Slump&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Grandaddy&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/1527310709&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/GKkJfBxnPQ-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/GKkJfBxnPQ-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/GKkJfBxnPQ-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album The Sophtware Slump ..... on a wooden piano by Grandaddy.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/1527310709&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;The Sophtware Slump ..... on a wooden piano&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Grandaddy&lt;/span&gt;&lt;/li&gt;
+	&lt;li class=&quot;record&quot;&gt;&lt;a href=&quot;https://album.link/i/850815999&quot;&gt;&lt;figure class=&quot;record-cover&quot; style=&quot;max-width: min(512px, var(--content-width)););&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://henriquebeier.com/img/i3tzzECwQB-512.webp 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;source type=&quot;image/jpeg&quot; srcset=&quot;https://henriquebeier.com/img/i3tzzECwQB-512.jpeg 512w&quot; sizes=&quot;100vw&quot;&gt;&lt;img src=&quot;https://henriquebeier.com/img/i3tzzECwQB-512.jpeg&quot; width=&quot;512&quot; height=&quot;512&quot; alt=&quot;Cover for the album Cajas de Música Difíciles de Parar by Nacho Vegas.&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;&lt;/picture&gt;&lt;/figure&gt;&lt;/a&gt;&lt;a href=&quot;https://album.link/i/850815999&quot;&gt;&lt;span class=&quot;record-title&quot;&gt;Cajas de Música Difíciles de Parar&lt;/span&gt;&lt;/a&gt;&lt;br&gt;&lt;span class=&quot;record-artist&quot;&gt;Nacho Vegas&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I’ve been making an effort to listen to full albums more, so my top 50 on last.fm only contains songs of 5 albums. Because of that, I curated this list of songs I enjoyed during 2025, in no particular order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lola Young – &lt;a href=&quot;https://song.link/i/1743250261&quot;&gt;Messy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;bby – &lt;a href=&quot;https://song.link/i/1752004144&quot;&gt;Kinky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rubblebucket – &lt;a href=&quot;https://song.link/i/1751813108&quot;&gt;Stella The Begonia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Camélia Jordana – &lt;a href=&quot;https://song.link/i/362453671&quot;&gt;Non non non (Écouter Barbara)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Beyoncé – &lt;a href=&quot;https://song.link/i/1738363769&quot;&gt;BLACKBIIRD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Camille – &lt;a href=&quot;https://song.link/i/1231176589&quot;&gt;Allez Allez Allez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Spoon – &lt;a href=&quot;https://song.link/i/1589224472&quot;&gt;Stay Don’t Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Ark of Teeth – &lt;a href=&quot;https://song.link/i/1768297058&quot;&gt;Cut That Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;UNIVERSITY – &lt;a href=&quot;https://song.link/i/1837401115&quot;&gt;Stones ’n Jam&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Car Seat Headrest – &lt;a href=&quot;https://song.link/i/1796212334&quot;&gt;Deveraux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Car Seat Headrest – &lt;a href=&quot;https://song.link/i/1796212591&quot;&gt;Planet Desperation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Little Jesus – &lt;a href=&quot;https://song.link/i/1572892208&quot;&gt;TQM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Depedro, Orellana Lucca, Mono Banegas &amp;amp; Martin Bruhn – &lt;a href=&quot;https://song.link/i/1826845769&quot;&gt;La Gloria: Cruce de Caminos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Él Mató a un Policía Motorizado – &lt;a href=&quot;https://song.link/i/1639158293&quot;&gt;Más o Menos Bien&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nacho Vegas – &lt;a href=&quot;https://song.link/i/850816212&quot;&gt;En La Sed Mortal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Él Mató a un Policía Motorizado – &lt;a href=&quot;https://song.link/i/1639158890&quot;&gt;Noche Negra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Café Tacvba – &lt;a href=&quot;https://song.link/i/36401148&quot;&gt;La Ingrata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;KAROL G &amp;amp; Manu Chao – &lt;a href=&quot;https://song.link/i/1819545335&quot;&gt;Viajando Por El Mundo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Echolalia – &lt;a href=&quot;https://song.link/i/1779932548&quot;&gt;In the Pub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Thee Oh Sees – &lt;a href=&quot;https://song.link/i/980369408&quot;&gt;Sticky Hulks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Car Seat Headrest – &lt;a href=&quot;https://song.link/i/1589252477&quot;&gt;(Joe Gets Kicked Out of School for Using) Drugs With Friends (But Says This Isn’t a Problem)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mclusky – &lt;a href=&quot;https://song.link/i/1788555272&quot;&gt;autofocus on the prime directive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Divorce – &lt;a href=&quot;https://song.link/i/1834186780&quot;&gt;Wendolene&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Low – &lt;a href=&quot;https://song.link/i/421679066&quot;&gt;Majesty / Magic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Grandaddy – &lt;a href=&quot;https://song.link/i/1527310854&quot;&gt;Jed the Humanoid (Piano Version)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Squid – &lt;a href=&quot;https://song.link/i/1774397759&quot;&gt;Building 650&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Black Lips – &lt;a href=&quot;https://song.link/i/1819765766&quot;&gt;Sx Sx Sx Men&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Low – &lt;a href=&quot;https://song.link/i/421679013&quot;&gt;$20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Kayatibu, Yaka Huni Kuin &amp;amp; Mi Mawai – &lt;a href=&quot;https://song.link/i/1803479339&quot;&gt;Nai Basa Masheri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Beth Carvalho – &lt;a href=&quot;https://song.link/i/715494462&quot;&gt;Andança&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Alexandre Kumpinski – &lt;a href=&quot;https://song.link/i/1652579976&quot;&gt;Onde Eu Não Puder&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Zeca Baleiro – &lt;a href=&quot;https://song.link/i/312000537&quot;&gt;Heavy Metal do Senhor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Alan Sparhawk – &lt;a href=&quot;https://song.link/i/1783079245&quot;&gt;Stranger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Alan Sparhawk – &lt;a href=&quot;https://song.link/i/1783079249&quot;&gt;Screaming Song&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Witch Post – &lt;a href=&quot;https://song.link/i/1828337239&quot;&gt;The Wolf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is the playlist in Apple Music.&lt;/p&gt;
+&lt;iframe class=&quot;embed&quot; allow=&quot;autoplay *; encrypted-media *;&quot; frameborder=&quot;0&quot; height=&quot;450&quot; style=&quot;overflow:hidden;background:transparent;&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.music.apple.com/br/playlist/henrique-beiers-favorites-2025/pl.u-1WBi8kjVxAa?l=en&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Media Notes #01</title>
