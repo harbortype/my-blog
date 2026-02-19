@@ -119,4 +119,13 @@ export default function (eleventyConfig) {
 			return figure;
 		},
 	);
+
+	// Filter to exclude <figure>, <picture> and <source> tags from the feeds
+	eleventyConfig.addFilter("stripMedia", (content) => {
+		return content
+			.replace(/<figure[\s\S]*?>/gi, "")
+			.replace(/<\/figure>/gi, "")
+			.replace(/<(\/)?picture>/gi, "")
+			.replace(/<source[\s\S]*?>/gi, "");
+	});
 }

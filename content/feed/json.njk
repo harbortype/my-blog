@@ -20,7 +20,7 @@ permalink: /feed/feed.json
 			"id": "{{ absolutePostUrl }}",
 			"url": "{{ absolutePostUrl }}",
 			"title": "{{ post.data.title }}",
-			"content_html": {% if post.templateContent %}{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | dump | safe }}{% else %}""{% endif %},
+			"content_html": {% if post.templateContent %}{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | stripMedia | dump | safe }}{% else %}""{% endif %},
 			"date_published": "{{ post.date | dateToRfc3339 }}"
 		}
 		{% if not loop.last %},{% endif %}
