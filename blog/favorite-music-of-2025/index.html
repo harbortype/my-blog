@@ -539,6 +539,31 @@ p code {
 	background-color: rgb(var(--rgb-accent), 30%);
 }
 
+/* BLOCKQUOTES */
+
+blockquote {
+	width: var(--text-width);
+	margin-inline: auto;
+	margin-block: 1.5rem;
+	padding: 1em 1.5em;
+	border-left: 3px solid rgb(var(--rgb-accent));
+	font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+	blockquote {
+		background-color: rgb(var(--rgb-accent), 10%);
+	}
+}
+blockquote p {
+	width: 100%;
+}
+blockquote > :first-child {
+	margin-top: 0;
+}
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
 /* FORMS AND INPUTS */
 
 /* Todos os inputs */
@@ -903,7 +928,7 @@ h2 + .header-anchor {
 <p>Here is the playlist in Apple Music.</p>
 <iframe class="embed" allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/br/playlist/henrique-beiers-favorites-2025/pl.u-1WBi8kjVxAa?l=en"></iframe>
 
-<ul class="links-nextprev"><li>Previous: <a href="/blog/media-notes-01/">Media Notes #01</a></li>
+<ul class="links-nextprev"><li>Previous: <a href="/blog/media-notes-01/">Media Notes #01</a></li><li>Next: <a href="/blog/on-parental-love/">On parental love</a></li>
 </ul>
 
 		</main>

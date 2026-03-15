@@ -9,7 +9,7 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Henrique Beier">
 		<meta name="generator" content="Eleventy v3.1.2">
 		
-		<style>.postlist { counter-reset: start-from 12 }
+		<style>.postlist { counter-reset: start-from 13 }
 * { box-sizing: border-box; }
 @font-face {
 	font-family: Seiva;
@@ -355,6 +355,31 @@ p code {
 	background-color: rgb(var(--rgb-accent), 30%);
 }
 
+/* BLOCKQUOTES */
+
+blockquote {
+	width: var(--text-width);
+	margin-inline: auto;
+	margin-block: 1.5rem;
+	padding: 1em 1.5em;
+	border-left: 3px solid rgb(var(--rgb-accent));
+	font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+	blockquote {
+		background-color: rgb(var(--rgb-accent), 10%);
+	}
+}
+blockquote p {
+	width: 100%;
+}
+blockquote > :first-child {
+	margin-top: 0;
+}
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
 /* FORMS AND INPUTS */
 
 /* Todos os inputs */
@@ -663,6 +688,11 @@ h2 + .header-anchor {
 
 
 <ol reversed class="postlist">
+
+	<li class="postlist-item">
+		<a href="/blog/on-parental-love/" class="postlist-link">On parental love</a>
+		<time class="postlist-date" datetime="2026-03-15">March 2026</time>
+	</li>
 
 	<li class="postlist-item">
 		<a href="/blog/favorite-music-of-2025/" class="postlist-link">Favorite music of 2025</a>

@@ -4,12 +4,25 @@
 	<subtitle>My own personal web.</subtitle>
 	<link href="https://henriquebeier.com/feed/feed.xml" rel="self"/>
 	<link href="https://henriquebeier.com/"/>
-	<updated>2026-01-12T00:00:00Z</updated>
+	<updated>2026-03-15T00:00:00Z</updated>
 	<id>https://henriquebeier.com/</id>
 	<author>
 		<name>Henrique Beier</name>
 		<email>blog@henriquebeier.com</email>
 	</author>
+	
+	<entry>
+		<title>On parental love</title>
+		<link href="https://henriquebeier.com/blog/on-parental-love/"/>
+		<updated>2026-03-15T00:00:00Z</updated>
+		<id>https://henriquebeier.com/blog/on-parental-love/</id>
+		<content type="html">&lt;p&gt;Every so often I think about this quote from A Little Life by Hanya Yanagihara:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I have never been one of those people – and I know you’re not either – who thinks that love for a child is a superior, more meaningful, grander kind of love than any other. I didn’t feel that before Jacob, and I didn’t feel it after his birth. But it is a singular love, because it is a love whose foundation is not physical attraction, or pleasure, or intellect, but fear. You have never known fear until you have a child, and maybe that is what tricks us into thinking that it is more magnificent, because the fear itself is more magnificent.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Even though me and my wife don’t want to have kids, that always hits me.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Favorite music of 2025</title>

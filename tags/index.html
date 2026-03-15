@@ -354,6 +354,31 @@ p code {
 	background-color: rgb(var(--rgb-accent), 30%);
 }
 
+/* BLOCKQUOTES */
+
+blockquote {
+	width: var(--text-width);
+	margin-inline: auto;
+	margin-block: 1.5rem;
+	padding: 1em 1.5em;
+	border-left: 3px solid rgb(var(--rgb-accent));
+	font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+	blockquote {
+		background-color: rgb(var(--rgb-accent), 10%);
+	}
+}
+blockquote p {
+	width: 100%;
+}
+blockquote > :first-child {
+	margin-top: 0;
+}
+blockquote > :last-child {
+	margin-bottom: 0;
+}
+
 /* FORMS AND INPUTS */
 
 /* Todos os inputs */
